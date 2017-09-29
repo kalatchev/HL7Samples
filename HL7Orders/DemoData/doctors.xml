@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfDoctor>
+  <Doctor>
+    <UIN>1200999945</UIN>
+    <Title>Д-р</Title>
+    <GivenName>Камелия</GivenName>
+    <MiddleName>Димитрова</MiddleName>
+    <FamilyName>Нинова</FamilyName>
+  </Doctor>
+  <Doctor>
+    <UIN>2300999912</UIN>
+    <Title>Д-р</Title>
+    <GivenName>Димитър</GivenName>
+    <MiddleName>Петров</MiddleName>
+    <FamilyName>Хинков</FamilyName>
+  </Doctor>
+  <Doctor>
+    <UIN>0400999977</UIN>
+    <Title>Проф. Д-р</Title>
+    <GivenName>Сергей</GivenName>
+    <MiddleName>Христов</MiddleName>
+    <FamilyName>Томов</FamilyName>
+  </Doctor>
+  <Doctor>
+    <UIN>2309999944</UIN>
+    <Title>Доц. Д-р</Title>
+    <GivenName>Весела</GivenName>
+    <MiddleName>Динкова</MiddleName>
+    <FamilyName>Михайлова</FamilyName>
+  </Doctor>
+</ArrayOfDoctor>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfWard>
+  <Ward>
+    <Code>3310</Code>
+    <Name>Обща хирургия</Name>
+  </Ward>
+  <Ward>
+    <Code>3320</Code>
+    <Name>Урология</Name>
+  </Ward>
+  <Ward>
+    <Code>3350</Code>
+    <Name>Реанимация</Name>
+  </Ward>
+</ArrayOfWard>
+

@@ -1,0 +1,2447 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfDiagnosis>
+  <Diagnosis>
+    <Code>A02.2</Code>
+    <Name>Локализирана салмонелозна инфекци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A02.8</Code>
+    <Name>Друга уточнена салмонелозна инфекци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A02.9</Code>
+    <Name>Салмонелозна инфекция, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A03.0</Code>
+    <Name>Шигелоза, предизвикана от Shigella dysenteriae</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A03.1</Code>
+    <Name>Шигелоза, предизвикана от Shigella flexneri</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A03.2</Code>
+    <Name>Шигелоза, предизвикана от Shigella boydii</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A03.3</Code>
+    <Name>Шигелоза, предизвикана от Shigella sonnei</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A03.8</Code>
+    <Name>Друга шигелоза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A03.9</Code>
+    <Name>Шигелоза, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A04.0</Code>
+    <Name>Ентеропатогенна инфекция, предизвикана от Escherichia coli</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A04.1</Code>
+    <Name>Ентеротоксигенна инфекция, предизвикана от Escherichia coli</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A04.2</Code>
+    <Name>Ентероинвазивна инфекция, предизвикана от Escherichia coli</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A04.3</Code>
+    <Name>Ентерохеморагична инфекция, предизвикана от Escherichia coli</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A04.4</Code>
+    <Name>Други чревни инфекции, предизвикани от Escherichia coli</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A04.5</Code>
+    <Name>Ентерит, предизвикан от Campylobacter</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A04.6</Code>
+    <Name>Ентерит, предизвикан от Yersinia enterocolitica</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A04.7</Code>
+    <Name>Ентероколит, предизвикан от Clostridium difficile</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A04.8</Code>
+    <Name>Други уточнени бактериални чревни инфекции</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A04.9</Code>
+    <Name>Бактериална чревна инфекция, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A05.0</Code>
+    <Name>Стафилококово хранително отравяне</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A05.1</Code>
+    <Name>Ботулизъм</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A05.2</Code>
+    <Name>Хранително отравяне, предизвикано от Clostridium perfringens [Clostridium welchii]</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A05.3</Code>
+    <Name>Хранително отравяне, предизвикано от Vibrio parahaemolyticus</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A05.4</Code>
+    <Name>Хранително отравяне, предизвикано от Bacillus cereus</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A05.8</Code>
+    <Name>Други уточнени бактериални хранителни отравяни</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A05.9</Code>
+    <Name>Бактериално хранително отравяне, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A06.0</Code>
+    <Name>Остра амебна дизентери</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>A06.1</Code>
+    <Name>Хронична чревна амебиаза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B50.9</Code>
+    <Name>Малария, предизвикана от Plasmodium falciparum, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B51.0</Code>
+    <Name>Малария, предизвикана от Plasmodium vivax с руптура на слезката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B51.8</Code>
+    <Name>Малария, предизвикана от Plasmodium vivax с други усложнени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B51.9</Code>
+    <Name>Малария, предизвикана от Plasmodium vivax без усложнени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B52.0</Code>
+    <Name>Малария, предизвикана от Plasmodium malariaе с нефропати</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B52.8</Code>
+    <Name>Малария, предизвикана от Plasmodium malariae с други усложнени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B52.9</Code>
+    <Name>Малария, предизвикана от Plasmodium malariae без усложнени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B53.0</Code>
+    <Name>Малария, предизвикана от Plasmodium ovale</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B53.1</Code>
+    <Name>Малария, предизвикана от маймунски плазмодии</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B53.8</Code>
+    <Name>Други паразитологично потвърдени маларии, некласифицирани другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B55.0</Code>
+    <Name>Висцерална лайшманиоза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B55.1</Code>
+    <Name>Кожна лайшманиоза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B55.2</Code>
+    <Name>Кожно-лигавична лайшманиоза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B55.9</Code>
+    <Name>Лайшманиоза, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B56.0</Code>
+    <Name>Гамбийска трипанозомоза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B56.1</Code>
+    <Name>Родезийска трипанозомоза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>B56.9</Code>
+    <Name>Африканска трипанозомоза, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C16.5</Code>
+    <Name>Малка кривина на стомаха, неуточнена част</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C16.6</Code>
+    <Name>Голяма кривина на стомаха, неуточнена част</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C16.8</Code>
+    <Name>Лезия, излизаща извън границите на една и повече посочени локализации на стомаха</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C16.9</Code>
+    <Name>Стомах, неуточнена локализаци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C17.0</Code>
+    <Name>Дванадесетопръстник (дуоденум)</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C17.1</Code>
+    <Name>Иеюнум</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C17.2</Code>
+    <Name>Илеум</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C17.3</Code>
+    <Name>Дивертикул на Meckel</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C17.8</Code>
+    <Name>Лезия, излизаща извън границите на една и повече посочени локализации на тънките черва</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C17.9</Code>
+    <Name>Тънки черва, неуточнена част</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C18.0</Code>
+    <Name>Цекум</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>C18.1</Code>
+    <Name>Апендикс</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D50.8</Code>
+    <Name>Други желязонедоимъчни анемии</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D50.9</Code>
+    <Name>Желязонедоимъчна анемия, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D51.0</Code>
+    <Name>Витамин B12-недоимъчна анемия, причинена от недоимък на вътрешен фактор</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D51.1</Code>
+    <Name>Витамин B12-недоимъчна анемия, причинена от избирателно нарушаване на усвояването на витамин B12 при хранене</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D51.2</Code>
+    <Name>Дефицит на транскобаламин II</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D51.3</Code>
+    <Name>Други витамин B12-недоимъчни анемии, свързани с храненето</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D51.8</Code>
+    <Name>Други витамин B12-недоимъчни анемии</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D51.9</Code>
+    <Name>Витамин B12-недоимъчна анемия, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D52.0</Code>
+    <Name>Фолиевонедоимъчна анемия, свързана с храненето</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D52.1</Code>
+    <Name>Фолиевонедоимъчна анемия, причинена от медикаменти</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D52.8</Code>
+    <Name>Други фолиевонедоимъчни анемии</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D52.9</Code>
+    <Name>Фолиевонедоимъчна анемия, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D53.0</Code>
+    <Name>Анемия, причинена от белтъчен недоимък</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D53.1</Code>
+    <Name>Други мегалобластни анемии, некласифицирани другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D53.2</Code>
+    <Name>Анемия при скорбут</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D53.8</Code>
+    <Name>Други уточнени анемии, свързани с храненето</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D53.9</Code>
+    <Name>Анемия, свързана с храненето, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D55.0</Code>
+    <Name>Анемия, дължаща се на недостиг на глюкозо-6-фосфат дехидрогеназа [G6PD]</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D55.1</Code>
+    <Name>Анемия, дължаща се на други нарушения на обмяната на глутатиона</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D55.2</Code>
+    <Name>Анемия, дължаща се на нарушения на ензимите на гликолизата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D55.3</Code>
+    <Name>Анемия, дължаща се на нарушения в метаболизма на нуклеотидите</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D55.8</Code>
+    <Name>Други анемии, дължащи се на ензимни нарушени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D55.9</Code>
+    <Name>Анемия, дължаща се на ензимно нарушение, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D56.0</Code>
+    <Name>Алфа таласеми</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D56.1</Code>
+    <Name>Бета таласеми</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D56.2</Code>
+    <Name>Делта-бета таласеми</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D56.3</Code>
+    <Name>Носителство на признака на таласеми</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D56.4</Code>
+    <Name>Наследствено персистиране на фетален хемоглобин [HPFH]</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D56.8</Code>
+    <Name>Други таласемии</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D56.9</Code>
+    <Name>Таласемия, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D57.0</Code>
+    <Name>Сърповидно-клетъчна анемия с криза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>D57.1</Code>
+    <Name>Сърповидно-клетъчна анемия без криза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E28.3</Code>
+    <Name>Първична яйчникова недостатъчност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E28.8</Code>
+    <Name>Други овариални дисфункции</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E28.9</Code>
+    <Name>Овариална дисфункция, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E29.0</Code>
+    <Name>Тестикуларна хиперфункци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E29.1</Code>
+    <Name>Тестикуларна хипофункци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E29.8</Code>
+    <Name>Други тестикуларни дисфункции</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E29.9</Code>
+    <Name>Тестикуларна дисфункция, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E30.0</Code>
+    <Name>Закъснял пубертет</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E30.1</Code>
+    <Name>Преждевременен пубертет</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E30.8</Code>
+    <Name>Други нарушения на пубертета</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E30.9</Code>
+    <Name>Нарушение в пубертета, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E31.0</Code>
+    <Name>Автоимунна полигландуларна недостатъчност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E31.1</Code>
+    <Name>Полигландуларна хиперфункци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E31.8</Code>
+    <Name>Другa полигландуларнa дисфункци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E31.9</Code>
+    <Name>Полигландуларна дисфункция, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E53.9</Code>
+    <Name>Недоимък на витамини от група B, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E55.0</Code>
+    <Name>Рахит, активен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E55.9</Code>
+    <Name>Недоимък на витамин D, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E56.0</Code>
+    <Name>Недоимък на витамин E</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E56.1</Code>
+    <Name>Недоимък на витамин K</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E56.8</Code>
+    <Name>Недоимък на други витамини</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E56.9</Code>
+    <Name>Витаминен недоимък, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E61.0</Code>
+    <Name>Недоимък на мед</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E61.1</Code>
+    <Name>Недоимък на желязо</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E61.2</Code>
+    <Name>Недоимък на магнезий</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E61.3</Code>
+    <Name>Недоимък на манган</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E61.4</Code>
+    <Name>Недоимък на хром</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E61.5</Code>
+    <Name>Недоимък на молибден</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E61.6</Code>
+    <Name>Недоимък на ванадий</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E61.7</Code>
+    <Name>Недоимък на много елементи в храната</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E61.8</Code>
+    <Name>Недоимък на други, уточнени елементи в храната</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E61.9</Code>
+    <Name>Недоимък на елементи в храната, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E63.0</Code>
+    <Name>Недоимък на есенциални мастни киселини [EFA]</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E63.1</Code>
+    <Name>Дисбаланс на хранителните съставки</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E63.8</Code>
+    <Name>Друг, уточнен хранителен недоимък</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E63.9</Code>
+    <Name>Хранителен недоимък, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E64.0</Code>
+    <Name>Последици от белтъчно-калорийно недохранване</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E64.1</Code>
+    <Name>Последици от недоимък на витамин A</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E64.2</Code>
+    <Name>Последици от недоимък на витамин C</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E64.3</Code>
+    <Name>Последици от рахит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E64.8</Code>
+    <Name>Последици от недоимък на други витамини</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E64.9</Code>
+    <Name>Последици от недоимък на хранителни вещества, неуточнени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E66.0</Code>
+    <Name>Затлъстяване, дължащо се на излишък от калории</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E66.1</Code>
+    <Name>Медикаментозно предизвикано затлъстяване</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E66.2</Code>
+    <Name>Екстремно затлъстяване с алвеоларна хиповентилаци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E66.8</Code>
+    <Name>Други форми на затлъстяване</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E66.9</Code>
+    <Name>Затлъстяване, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E67.0</Code>
+    <Name>Хипервитаминоза A</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>E67.1</Code>
+    <Name>Хиперкаротинеми</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G47.0</Code>
+    <Name>Нарушение в заспиването и продължителността на съня [безсъние]</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G47.1</Code>
+    <Name>Повишена сънливост [хиперсомния]</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G47.2</Code>
+    <Name>Нарушение в цикличността на съня и бодърстването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G47.3</Code>
+    <Name>Апнея по време на сън</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G47.4</Code>
+    <Name>Нарколепсия и катаплекси</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G47.8</Code>
+    <Name>Други нарушения на сън</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G47.9</Code>
+    <Name>Нарушениe на съня, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G50.0</Code>
+    <Name>Невралгия на троичния нерв</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G50.1</Code>
+    <Name>Атипична лицева болка</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G50.8</Code>
+    <Name>Други увреждания на троичния нерв</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G50.9</Code>
+    <Name>Увреждане на троичния нерв, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G51.0</Code>
+    <Name>Парализа на Bell</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G51.1</Code>
+    <Name>Възпаление на ganglion geniculi</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G51.2</Code>
+    <Name>Синдром на Melkersson</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G51.3</Code>
+    <Name>Клоничен хемифациален спазъм</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G51.4</Code>
+    <Name>Лицева миоцими</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G51.8</Code>
+    <Name>Други увреждания на лицевия нерв</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G51.9</Code>
+    <Name>Увреждане на лицевия нерв, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G52.0</Code>
+    <Name>Увреждания на обонятелния нерв</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G52.1</Code>
+    <Name>Увреждания на n. glossopharingeus</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G52.2</Code>
+    <Name>Увреждания на n. vagus</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G52.3</Code>
+    <Name>Увреждания на подезичния нерв</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G52.7</Code>
+    <Name>Множествени увреждания на черепномозъчните нерви</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G52.8</Code>
+    <Name>Увреждания на други уточнени черепномозъчни нерви</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>G52.9</Code>
+    <Name>Увреждане на черепномозъчните нерви, неуточнено</Name>
+  </Diagnosis>
+  "<Diagnosis>
+    <Code>G53.0</Code>
+    <Name>Невралгия след herpes zoster 	(В02.2ї)</Name>
+  </Diagnosis>"
+  <Diagnosis>
+    <Code>H21.1</Code>
+    <Name>Други съдови болести на ириса и цилиарното тяло</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H21.2</Code>
+    <Name>Дегенерация на ириса и цилиарното тяло</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H21.3</Code>
+    <Name>Киста на ириса, цилиарното тяло и предната камера на окото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H21.4</Code>
+    <Name>Зенични мембрани</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H21.5</Code>
+    <Name>Други видове сраствания и отлепвания на ириса и цилиарното тяло</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H21.8</Code>
+    <Name>Други уточнени болести на ириса и цилиарното тяло</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H21.9</Code>
+    <Name>Болест на ириса и цилиарното тяло, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H22.0</Code>
+    <Name>Иридоциклит при инфекциозни болести, класифицирани другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H22.1</Code>
+    <Name>Иридоциклит при болести, класифицирани другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H22.8</Code>
+    <Name>Други увреждания на ириса и цилиарното тяло при болести, класифицирани другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H25.0</Code>
+    <Name>Начална старческа катаракта</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H25.1</Code>
+    <Name>Старческа нуклеарна катаракта</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H25.2</Code>
+    <Name>Старческа катаракта, морганиев тип</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H25.8</Code>
+    <Name>Други старчески катаракти</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H25.9</Code>
+    <Name>Старческа катаракта, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H26.0</Code>
+    <Name>Детска, юношеска и пресенилна катаракта</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H26.1</Code>
+    <Name>Травматична катаракта</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H26.2</Code>
+    <Name>Усложнена катаракта</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H26.3</Code>
+    <Name>Катаракта, предизвикана от лекарствени средства</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H26.4</Code>
+    <Name>Вторична катаракта</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>H26.8</Code>
+    <Name>Друга уточнена катаракта</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I01.0</Code>
+    <Name>Остър ревматичен перикардит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I01.1</Code>
+    <Name>Остър ревматичен ендокардит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I01.2</Code>
+    <Name>Остър ревматичен миокардит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I01.8</Code>
+    <Name>Други остри ревматични болести на сърцето</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I01.9</Code>
+    <Name>Остра ревматична болест на сърцето, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I02.0</Code>
+    <Name>Ревматична хорея със засягане на сърцето</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I02.9</Code>
+    <Name>Ревматична хорея без засягане на сърцето</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I05.0</Code>
+    <Name>Митрална стеноза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I05.1</Code>
+    <Name>Ревматична митрална инсуфициенци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I05.2</Code>
+    <Name>Митрална стеноза и инсуфициенци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I05.8</Code>
+    <Name>Други болести на митралната клапа</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I05.9</Code>
+    <Name>Болест на митралната клапа, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I06.0</Code>
+    <Name>Ревматична аортна стеноза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I06.1</Code>
+    <Name>Ревматична аортна инсуфициенци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I06.2</Code>
+    <Name>Ревматична аортна стеноза и инсуфициенци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I06.8</Code>
+    <Name>Други ревматични болести на аортната клапа</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I06.9</Code>
+    <Name>Ревматична болест на аортната клапа, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I07.0</Code>
+    <Name>Трикуспидална стеноза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I07.1</Code>
+    <Name>Трикуспидална инсуфициенци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I07.2</Code>
+    <Name>Трикуспидална стеноза и инсуфициенци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I07.8</Code>
+    <Name>Други болести на трикуспидалната клапа</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I07.9</Code>
+    <Name>Болест на трикуспидалната клапа, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I08.0</Code>
+    <Name>Съчетано засягане на митралната и аортната клапи</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I08.1</Code>
+    <Name>Съчетано засягане на митралната и трикуспидалната клапи</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I08.2</Code>
+    <Name>Съчетано засягане на аортната и трикуспидалната клапи</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I08.3</Code>
+    <Name>Съчетано засягане на митралната, аортната и трикуспидалната клапи</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I08.8</Code>
+    <Name>Други болести на няколко клапи</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I08.9</Code>
+    <Name>Болест на няколко клапи, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I09.0</Code>
+    <Name>Ревматичен миокардит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I09.1</Code>
+    <Name>Ревматични болести на ендокарда без уточняване на клапа</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I09.2</Code>
+    <Name>Хроничен ревматичен перикардит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I09.8</Code>
+    <Name>Други уточнени ревматични болести на сърцето</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I09.9</Code>
+    <Name>Ревматична болест на сърцето, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I11.0</Code>
+    <Name>Хипертонично сърце със (застойна) сърдечна недостатъчност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I11.9</Code>
+    <Name>Хипертонично сърце без (застойна) сърдечна недостатъчност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I12.0</Code>
+    <Name>Хипертоничен бъбрек с бъбречна недостатъчност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I12.9</Code>
+    <Name>Хипертоничен бъбрек без бъбречна недостатъчност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I13.0</Code>
+    <Name>Съчетание на хипертонично сърце с хипертоничен бъбрек и със (застойна) сърдечна недостатъчност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I13.1</Code>
+    <Name>Съчетание на хипертонично сърце с хипертоничен бъбрек и с бъбречна недостатъчност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I13.2</Code>
+    <Name>Съчетание на хипертонично сърце с хипертоничен бъбрек с наличие както на (застойна) сърдечна недостатъчност, така и на бъбречна недостатъчност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I13.9</Code>
+    <Name>Съчетание на хипертонично сърце с хипертоничен бъбрек, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I15.0</Code>
+    <Name>Бъбречно-съдова хипертони</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I15.1</Code>
+    <Name>Хипертония, дължаща се на други бъбречни нарушени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I15.2</Code>
+    <Name>Хипертония, дължаща се на ендокринни нарушени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I15.8</Code>
+    <Name>Други видове вторична хипертони</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I15.9</Code>
+    <Name>Вторична хипертония, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I20.0</Code>
+    <Name>Нестабилна стенокарди</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I20.1</Code>
+    <Name>Стенокардия с документиран спазъм</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I20.8</Code>
+    <Name>Други видове стенокарди</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>I20.9</Code>
+    <Name>Стенокардия, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J03.8</Code>
+    <Name>Остър тонзилит, предизвикан от други уточнени причинители</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J03.9</Code>
+    <Name>Остър тонзилит, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J04.0</Code>
+    <Name>Остър ларингит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J04.1</Code>
+    <Name>Остър трахеит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J04.2</Code>
+    <Name>Остър ларинготрахеит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J05.0</Code>
+    <Name>Остър обструктивен ларингит [круп]</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J05.1</Code>
+    <Name>Остър епиглотит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J06.0</Code>
+    <Name>Остър ларингофарингит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J06.8</Code>
+    <Name>Други остри инфекции на горните дихателни пътища с множествена локализаци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J06.9</Code>
+    <Name>Остра инфекция на горните дихателни пътища, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J10.0</Code>
+    <Name>Грип с пневмония, идентифициран грипен вирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J10.1</Code>
+    <Name>Грип с други респираторни прояви, идентифициран грипен вирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J10.8</Code>
+    <Name>Грип с други прояви, идентифициран грипен вирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J11.0</Code>
+    <Name>Грип с пневмония, неидентифициран вирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J11.1</Code>
+    <Name>Грип с други респираторни прояви, неидентифициран вирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J11.8</Code>
+    <Name>Грип с други прояви, неидентифициран вирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J12.0</Code>
+    <Name>Аденовирусна пневмони</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J12.1</Code>
+    <Name>Пневмония, причинена от респираторно синцитиален вирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J12.2</Code>
+    <Name>Пневмония, причинена от вируса на парагрипа</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J12.8</Code>
+    <Name>Друга вирусна пневмони</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J12.9</Code>
+    <Name>Вирусна пневмония, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J15.0</Code>
+    <Name>Пневмония, причинена от Klebsiella pneumoniae</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J15.1</Code>
+    <Name>Пневмония, причинена от Pseudomonas</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J15.2</Code>
+    <Name>Пневмония, причинена от стафилокок</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J15.3</Code>
+    <Name>Пневмония, причинена от стрептокок група В</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J15.4</Code>
+    <Name>Пневмония, причинена от други стрептококи</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J15.5</Code>
+    <Name>Пневмония, причинена от Escherichia coli</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J15.6</Code>
+    <Name>Пневмония, причинена от други аеробни грам-отрицателни бактерии</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J15.7</Code>
+    <Name>Пневмония, причинена от Mycoplasma pneumoniae</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J15.8</Code>
+    <Name>Други бактериални пневмонии</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J15.9</Code>
+    <Name>Бактериална пневмония, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J16.0</Code>
+    <Name>Пневмония, причинена от хламидии</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J16.8</Code>
+    <Name>Пневмония, причинена от други уточнени инфекциозни агенти</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J17.0</Code>
+    <Name>Пневмония при бактериални болести, класифицирани другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J17.1</Code>
+    <Name>Пневмония при вирусни болести, класифицирани другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J17.2</Code>
+    <Name>Пневмония при микози</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J17.3</Code>
+    <Name>Пневмония при паразитни болести</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J17.8</Code>
+    <Name>Пневмония при други болести, класифицирани другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J18.0</Code>
+    <Name>Бронхопневмония, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J18.1</Code>
+    <Name>Лобарна пневмония, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J18.2</Code>
+    <Name>Хипостатична пневмония, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J18.8</Code>
+    <Name>Друга пневмония с неуточнен причинител</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J18.9</Code>
+    <Name>Пневмония, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J20.0</Code>
+    <Name>Остър бронхит, причинен от Mycoplasma pneumoniae</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J20.1</Code>
+    <Name>Остър бронхит, причинен от Haemophilus influenzae</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J20.2</Code>
+    <Name>Остър бронхит, причинен от стрептокок</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J20.3</Code>
+    <Name>Остър бронхит, причинен от коксаки-вирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J20.4</Code>
+    <Name>Остър бронхит, причинен от парагрипен вирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J20.5</Code>
+    <Name>Остър бронхит, причинен от респираторно-синцитиален вирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J20.6</Code>
+    <Name>Остър бронхит, причинен от риновирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J20.7</Code>
+    <Name>Остър бронхит, причинен от еховирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J20.8</Code>
+    <Name>Остър бронхит, причинен от друг уточнен агент</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J20.9</Code>
+    <Name>Остър бронхит, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J21.0</Code>
+    <Name>Остър бронхиолит, причинен от респираторно-синцитиален вирус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J21.8</Code>
+    <Name>Остър бронхиолит, причинен от друг уточнен агент</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J21.9</Code>
+    <Name>Остър бронхиолит, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J30.0</Code>
+    <Name>Вазомоторен ринит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J30.1</Code>
+    <Name>Алергичен ринит, причинен от полени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J30.2</Code>
+    <Name>Други сезонни алергични ринити</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J30.3</Code>
+    <Name>Други алергични ринити</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J30.4</Code>
+    <Name>Алергичен ринит, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J31.0</Code>
+    <Name>Хроничен ринит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J31.1</Code>
+    <Name>Хроничен назофарингит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J31.2</Code>
+    <Name>Хроничен фарингит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J32.0</Code>
+    <Name>Хроничен максиларен синуит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J32.1</Code>
+    <Name>Хроничен фронтален синуит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J32.2</Code>
+    <Name>Хроничен етмоидален синуит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J32.3</Code>
+    <Name>Хроничен сфеноидален синуит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J32.4</Code>
+    <Name>Хроничен пансинуит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J32.8</Code>
+    <Name>Други хронични синуити</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J32.9</Code>
+    <Name>Хроничен синуит, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J33.0</Code>
+    <Name>Полип на носните кухини</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J33.1</Code>
+    <Name>Полипозна дегенерация на синуса</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J33.8</Code>
+    <Name>Други полипи на синуса</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J33.9</Code>
+    <Name>Полип на носа, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J34.0</Code>
+    <Name>Абсцес, фурункул и карбункул на носа</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J34.1</Code>
+    <Name>Киста или мукоцеле на носа и носния синус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J34.2</Code>
+    <Name>Девиация на носната преграда</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J34.3</Code>
+    <Name>Хипертрофия на носната раковина</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J34.8</Code>
+    <Name>Други уточнени болести на носа и носните синуси</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J35.0</Code>
+    <Name>Хроничен тонзилит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>J35.1</Code>
+    <Name>Хипертрофия на тонзилите</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K59.0</Code>
+    <Name>Запек</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K59.1</Code>
+    <Name>Функционална диари</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K59.2</Code>
+    <Name>Неврогенни черва, некласифицирани другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K59.3</Code>
+    <Name>Мегаколон, некласифициран другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K59.4</Code>
+    <Name>Спазъм на аналния сфинктер</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K59.8</Code>
+    <Name>Други уточнени функционални нарушения на червата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K59.9</Code>
+    <Name>Функционално нарушение на червата, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K60.0</Code>
+    <Name>Остра анална фисура</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K60.1</Code>
+    <Name>Хронична анална фисура</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K60.2</Code>
+    <Name>Анална фисура, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K60.3</Code>
+    <Name>Анална фистула</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K60.4</Code>
+    <Name>Ректална фистула</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K60.5</Code>
+    <Name>Аноректална фистула</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K61.0</Code>
+    <Name>Анален абсцес</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K61.1</Code>
+    <Name>Ректален абсцес</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K61.2</Code>
+    <Name>Аноректален абсцес</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K61.3</Code>
+    <Name>Ишиоректален абсцес</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K61.4</Code>
+    <Name>Интрасфинктерен абсцес</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K62.0</Code>
+    <Name>Анален полип</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K62.1</Code>
+    <Name>Ректален полип</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K62.2</Code>
+    <Name>Пролапс на ануса</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K62.3</Code>
+    <Name>Пролапс на ректума</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K62.4</Code>
+    <Name>Стеноза на ануса и ректума</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K62.5</Code>
+    <Name>Кръвоизлив от ануса и ректума</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K62.6</Code>
+    <Name>Язва на ануса и ректума</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K62.7</Code>
+    <Name>Радиационен проктит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K62.8</Code>
+    <Name>Други уточнени болести на ануса и ректума</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K62.9</Code>
+    <Name>Болест на ануса и ректума, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K63.0</Code>
+    <Name>Абсцес на червата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K63.1</Code>
+    <Name>Перфорация на червата (нетравматична)</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K63.2</Code>
+    <Name>Фистула на червата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K63.3</Code>
+    <Name>Язва на червата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K63.4</Code>
+    <Name>Ентероптоза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K75.0</Code>
+    <Name>Абсцес на черния дроб</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K75.1</Code>
+    <Name>Флебит на вена порте</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K75.2</Code>
+    <Name>Неспецифичен реактивен хепатит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K75.3</Code>
+    <Name>Грануломатозен хепатит, некласифициран другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K75.4</Code>
+    <Name>Автоимунен хепатит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K75.8</Code>
+    <Name>Други уточнени възпалителни болести на черния дроб</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>K75.9</Code>
+    <Name>Възпалителна болест на черния дроб, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L12.1</Code>
+    <Name>Цикатризиращ пемфигоид</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L12.2</Code>
+    <Name>Хронична булозна болест в детска възраст</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L12.3</Code>
+    <Name>Придобита булозна епидермолиза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L12.8</Code>
+    <Name>Други видове пемфигоид</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L12.9</Code>
+    <Name>Пемфигоид, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L13.0</Code>
+    <Name>Дерматитис херпетиформис</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L13.1</Code>
+    <Name>Субкорнеален пустулозен дерматит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L13.8</Code>
+    <Name>Други уточнени булозни увреждани</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L13.9</Code>
+    <Name>Булозни увреждания, неуточнени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L20.0</Code>
+    <Name>Пруриго на Besnier</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L20.8</Code>
+    <Name>Други форми на атопичен дерматит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L20.9</Code>
+    <Name>Атопичен дерматит, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L21.0</Code>
+    <Name>Себорея капитис</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L21.1</Code>
+    <Name>Себореен дерматит в детска възраст</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L21.8</Code>
+    <Name>Други форми на себореен дерматит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L21.9</Code>
+    <Name>Себореен дерматит, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L23.0</Code>
+    <Name>Алергичен контактен дерматит от метали</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L23.1</Code>
+    <Name>Алергичен контактен дерматит от залепващи материали</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L23.2</Code>
+    <Name>Алергичен контактен дерматит от козметични средства</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L23.3</Code>
+    <Name>Алергичен контактен дерматит от лекарства при контакта им с кожата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L71.9</Code>
+    <Name>Розацея, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L72.0</Code>
+    <Name>Епидермална киста</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L72.1</Code>
+    <Name>Триходермална киста</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L72.2</Code>
+    <Name>Стеатоцистома мултиплекс</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L72.8</Code>
+    <Name>Други фоликуларни кисти на кожата и подкожната тъкан</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L72.9</Code>
+    <Name>Фоликуларна киста на кожата и подкожната тъкан, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L73.0</Code>
+    <Name>Акне келоид</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L73.1</Code>
+    <Name>Псевдофоликулит на космите на брадата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L73.2</Code>
+    <Name>Гноен хидраденит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L73.8</Code>
+    <Name>Други уточнени фоликуларни увреждани</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L73.9</Code>
+    <Name>Фоликуларно увреждане, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L74.0</Code>
+    <Name>Милиариа рубра</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L74.1</Code>
+    <Name>Милиариа кристалина</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L74.2</Code>
+    <Name>Милиариа профунда</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L74.3</Code>
+    <Name>Милиариа, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L74.4</Code>
+    <Name>Анхидроза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L74.8</Code>
+    <Name>Други болести на екринните потни жлези</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>L74.9</Code>
+    <Name>Болест на екринните потни жлези, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M43.0</Code>
+    <Name>Спондилолиза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M43.1</Code>
+    <Name>Спондилолистеза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M43.2</Code>
+    <Name>Други сраствания на гръбначния стълб</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M43.3</Code>
+    <Name>Рецидивираща атланто-аксисна сублуксация с миелопати</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M43.4</Code>
+    <Name>Други рецидивиращи атланто-аксисни сублуксации</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M43.5</Code>
+    <Name>Други рецидивиращи сублуксации на гръбначния стълб</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M43.6</Code>
+    <Name>Крива шия [torticollis]</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M43.8</Code>
+    <Name>Други уточнени деформиращи дорзопатии</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M43.9</Code>
+    <Name>Деформираща дорзопатия, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M46.0</Code>
+    <Name>Ентезопатия на гръбначния стълб</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M46.1</Code>
+    <Name>Сакроилеит, некласифициран другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M46.2</Code>
+    <Name>Остеомиелит на гръбначния стълб</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>M46.3</Code>
+    <Name>Инфекция на междупрешленния диск (пиогенна)</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N30.8</Code>
+    <Name>Други цистити</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N30.9</Code>
+    <Name>Цистит, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N31.0</Code>
+    <Name>Незатормозен неврогенен пикочен мехур, некласифициран другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N31.1</Code>
+    <Name>Рефлекторен неврогенен пикочен мехур, некласифициран другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N31.2</Code>
+    <Name>Неврогенна слабост на пикочния мехур, некласифицирана другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N31.8</Code>
+    <Name>Други невромускулни дисфункции на пикочния мехур</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N31.9</Code>
+    <Name>Невромускулна дисфункция на пикочния мехур, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N32.0</Code>
+    <Name>Запушване на шийката на пикочния мехур</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N32.1</Code>
+    <Name>Везикоинтестинална фистула</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N32.2</Code>
+    <Name>Везикална фистула, некласифицирана другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N32.3</Code>
+    <Name>Дивертикул на пикочния мехур</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N32.4</Code>
+    <Name>Руптура на пикочния мехур, нетравматична</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N32.8</Code>
+    <Name>Други уточнени увреждания на пикочния мехур</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N32.9</Code>
+    <Name>Увреждане на пикочния мехур, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N33.0</Code>
+    <Name>Туберкулозен цистит (A18.1ї)</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N33.8</Code>
+    <Name>Увреждания на пикочния мехур при други болести, класифицирани другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N34.0</Code>
+    <Name>Абсцес на уретрата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N34.1</Code>
+    <Name>Неспецифичен уретрит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N34.2</Code>
+    <Name>Други уретрити</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>N34.3</Code>
+    <Name>Уретрален синдром, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O02.1</Code>
+    <Name>Задържан аборт (missed abortion)</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O02.8</Code>
+    <Name>Други уточнени анормални продукти на зачеването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O02.9</Code>
+    <Name>Анормален продукт на зачеването, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O07.0</Code>
+    <Name>Неуспешен терапевтичен аборт, усложнен с инфекция на родовия канал и тазовите органи</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O07.1</Code>
+    <Name>Неуспешен терапевтичен аборт, усложнен с продължително или масивно кръвотечение</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O07.2</Code>
+    <Name>Неуспешен терапевтичен аборт, усложнен с емболи</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O07.3</Code>
+    <Name>Неуспешен терапевтичен аборт с други и неуточнени усложнени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O07.4</Code>
+    <Name>Неуспешен терапевтичен аборт без усложнени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O07.5</Code>
+    <Name>Друг и неуточнен неуспешен опит за аборт, усложнен с инфекция на родовия канал и тазовите органи</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O07.6</Code>
+    <Name>Друг и неуточнен неуспешен опит за аборт, усложнен с продължително или масивно кръвотечение</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O07.7</Code>
+    <Name>Друг и неуточнен неуспешен опит за аборт, усложнен с емболи</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O07.8</Code>
+    <Name>Друг и неуточнен неуспешен опит за аборт с други и неуточнени усложнени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O07.9</Code>
+    <Name>Друг и неуточнен неуспешен опит за аборт без усложнени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O08.0</Code>
+    <Name>Инфекция на гениталния тракт и тазовите органи след аборт, извънматочна и гроздовидна бременност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O08.1</Code>
+    <Name>Продължително или масивно кръвотечение след аборт, извънматочна и гроздовидна бременност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O08.2</Code>
+    <Name>Емболия след аборт, извънматочна и гроздовидна бременност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O08.3</Code>
+    <Name>Шок след аборт, извънматочна и гроздовидна бременност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O08.4</Code>
+    <Name>Бъбречна недостатъчност след аборт, извънматочна и гроздовидна бременност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O08.5</Code>
+    <Name>Нарушения в обмяната на веществата след аборт, извънматочна и гроздовидна бременност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O08.6</Code>
+    <Name>Засягане на тазови органи и тъкани след аборт, извънматочна и гроздовидна бременност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O08.7</Code>
+    <Name>Други венозни усложнения след аборт, извънматочна и гроздовидна бременност</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O26.3</Code>
+    <Name>Задържано вътрематочно противозачатъчно средство по време на бременността</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O26.4</Code>
+    <Name>Гестационен херпес</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O26.5</Code>
+    <Name>Хипотоничен синдром у майката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O26.6</Code>
+    <Name>Увреждане на черния дроб по време на бременността, раждането и послеродовия период</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O26.7</Code>
+    <Name>Сублуксация на symphysis (pubis) по време на бременността, раждането и послеродовия период</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O26.8</Code>
+    <Name>Други уточнени състояния, свързани с бременността</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O26.9</Code>
+    <Name>Състояние, свързано с бременността, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O28.0</Code>
+    <Name>Хематологични отклонения от нормата при антенатален скрининг на майката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O28.1</Code>
+    <Name>Биохимични отклонения от нормата при антенатален скрининг на майката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O28.2</Code>
+    <Name>Цитологични отклонения от нормата при антенатален скрининг на майката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O28.3</Code>
+    <Name>Отклонения в ултразвуковата находка при антенатален скрининг на майката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O28.4</Code>
+    <Name>Отклонения в рентгенологичната находка при антенатален скрининг на майката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O28.5</Code>
+    <Name>Хромозомни и генетични отклонения от нормата при антенатален скрининг на майката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O28.8</Code>
+    <Name>Други отклонения от нормата при антенатален скрининг на майката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O28.9</Code>
+    <Name>Отклонение от нормата при антенатален скрининг на майката, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O29.0</Code>
+    <Name>Белодробни усложнения от анестезия по време на бременността</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O29.1</Code>
+    <Name>Кардиологични усложнения от анестезия по време на бременността</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O29.2</Code>
+    <Name>Усложнения на централната нервна система от анестезия по време на бременността</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O29.3</Code>
+    <Name>Токсична реакция към местна анестезия по време на бременността</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O29.4</Code>
+    <Name>Главоболие, причинено от спинална или епидурална анестезия по време на бременността</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O73.0</Code>
+    <Name>Задържана плацента без кръвотечение</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O73.1</Code>
+    <Name>Задържани части на плацентата или ципите без кръвотечение</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O74.0</Code>
+    <Name>Аспирационен пневмонит след анестезия в хода на раждането и родоразрешаването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O74.1</Code>
+    <Name>Други белодробни усложнения след анестезия в хода на раждането и родоразрешаването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O74.2</Code>
+    <Name>Сърдечни усложнения след анестезия в хода на раждането и родоразрешаването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O74.3</Code>
+    <Name>Усложнения от страна на централната нервна система след анестезия в хода на раждането и родоразрешаването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O74.4</Code>
+    <Name>Токсична реакция към локална анестезия в хода на раждането и родоразрешаването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O74.5</Code>
+    <Name>Главоболие, причинено от спинална или епидурална анестезия в хода на раждането и родоразрешаването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O74.6</Code>
+    <Name>Други усложнения, причинени от спинална или епидурална анестезия, в хода на раждането и родоразрешаването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O74.7</Code>
+    <Name>Неуспешна или трудна интубация в хода на раждането и родоразрешаването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O74.8</Code>
+    <Name>Други усложнения от анестезия в хода на раждането и родоразрешаването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O74.9</Code>
+    <Name>Усложнение от анестезия в хода на раждането и родоразрешаването, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O75.0</Code>
+    <Name>Майчин дистрес в хода на раждането и родоразрешаването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O75.1</Code>
+    <Name>Шок в хода на или непосредствено след раждането и родоразрешаването</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O75.2</Code>
+    <Name>Хипертермия в хода на раждането, некласифицирана другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O75.3</Code>
+    <Name>Друга инфекция в хода на раждането</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>O75.4</Code>
+    <Name>Други усложнения, предизвикани от акушерска или хирургична намеса и други процедури</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P51.0</Code>
+    <Name>Масивно кървене от пъпния остатък на новородено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P51.8</Code>
+    <Name>Друго кървене от пъпния остатък на новородено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P51.9</Code>
+    <Name>Кървене от пъпния остатък на новородено, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P52.0</Code>
+    <Name>Интравентрикуларен (нетравматичен) кръвоизлив I степен у плода и новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P52.1</Code>
+    <Name>Интравентрикуларен (нетравматичен) кръвоизлив II степен у плода и новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P52.2</Code>
+    <Name>Интравентрикуларен (нетравматичен) кръвоизлив III степен у плода и новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P52.3</Code>
+    <Name>Неуточнен интравентрикуларен (нетравматичен) кръвоизлив у плода и новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P52.4</Code>
+    <Name>Вътремозъчен кръвоизлив (нетравматичен) у плода и новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P52.5</Code>
+    <Name>Субарахноидален (нетравматичен) кръвоизлив у плода и новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P52.6</Code>
+    <Name>Кръвоизлив в малкия мозък и задната черепна ямка (нетравматичен) у плода и новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P52.8</Code>
+    <Name>Други вътречерепни (нетравматични) кръвоизливи у плода и новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P52.9</Code>
+    <Name>Вътречерепен (нетравматичен) кръвоизлив у плода и новороденото, неуточнен</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P54.0</Code>
+    <Name>Хематемеза у новородено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P54.1</Code>
+    <Name>Мелена у новородено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P54.2</Code>
+    <Name>Ректално кървене у новородено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P54.3</Code>
+    <Name>Стомашночревно кървене у новородено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P54.4</Code>
+    <Name>Надбъбречен кръвоизлив у новородено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P54.5</Code>
+    <Name>Кожен кръвоизлив у новородено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P54.6</Code>
+    <Name>Кървене от влагалището на новородено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P54.8</Code>
+    <Name>Други уточнени  видове кървене у новородено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P54.9</Code>
+    <Name>Неонатално кървене, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P55.0</Code>
+    <Name>Резус-изоимунизация на плода и новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P55.1</Code>
+    <Name>АВО-изоимунизация на плода и новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P55.8</Code>
+    <Name>Други форми на хемолитична болест на плода и новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P55.9</Code>
+    <Name>Хемолитична болест на плода и новороденото, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P56.0</Code>
+    <Name>Фетален хидропс от изоимунизаци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P56.9</Code>
+    <Name>Фетален хидропс от друга и неуточнена хемолитична болест</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P57.0</Code>
+    <Name>Ядрена жълтеница от изоимунизаци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P57.8</Code>
+    <Name>Други уточнени форми на ядрена жълтеница</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P57.9</Code>
+    <Name>Ядрена жълтеница, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P58.0</Code>
+    <Name>Неонатална жълтеница от кръвонасядани</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P58.1</Code>
+    <Name>Неонатална жълтеница от кървене</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P58.2</Code>
+    <Name>Неонатална жълтеница от инфекци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P58.3</Code>
+    <Name>Неонатална жълтеница от полицитеми</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P58.4</Code>
+    <Name>Неонатална жълтеница, причинена от лекарствени средства или токсини, преминали от майката или приложени на новороденото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P58.5</Code>
+    <Name>Неонатална жълтеница от поглъщане на майчина кръв</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P58.8</Code>
+    <Name>Неонатална жълтеница от други уточнени форми на масивна хемолиза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P58.9</Code>
+    <Name>Неонатална жълтеница от масивна хемолиза, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P59.0</Code>
+    <Name>Неонатална жълтеница, свързана с преждевременно раждане</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P59.1</Code>
+    <Name>Синдром на сгъстена жлъчка</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P59.2</Code>
+    <Name>Неонатална жълтеница от други и неуточнени чернодробноклетъчни увреждани</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P59.3</Code>
+    <Name>Неонатална жълтеница от употреба на средства, инхибиращи лактацията</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P59.8</Code>
+    <Name>Неонатална жълтеница от други уточнени причини</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P59.9</Code>
+    <Name>Неонатална жълтеница, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>P61.0</Code>
+    <Name>Преходна неонатална тромбоцитопени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q25.1</Code>
+    <Name>Коарктация на аортата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q25.2</Code>
+    <Name>Атрезия на аортата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q25.3</Code>
+    <Name>Стеноза на аортата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q25.4</Code>
+    <Name>Други вродени аномалии на аортата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q25.5</Code>
+    <Name>Атрезия на белодробната артери</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q25.6</Code>
+    <Name>Стеноза на белодробната артери</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q25.7</Code>
+    <Name>Други вродени аномалии на белодробната артери</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q25.8</Code>
+    <Name>Други вродени аномалии на големите артерии</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q25.9</Code>
+    <Name>Вродена аномалия на големите артерии, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q26.0</Code>
+    <Name>Вродена стеноза на vena cava</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q26.1</Code>
+    <Name>Персистираща лява горна куха вена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q26.2</Code>
+    <Name>Тотално аномално вливане на белодробните вени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q26.3</Code>
+    <Name>Частично аномално вливане на белодробните вени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q26.4</Code>
+    <Name>Аномално вливане на белодробните вени, неуточнено</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q26.5</Code>
+    <Name>Аномално вливане на порталната вена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q26.6</Code>
+    <Name>Фистула между порталната вена и чернодробната артери</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q26.8</Code>
+    <Name>Други вродени аномалии на големите вени</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q26.9</Code>
+    <Name>Вродена аномалия на голяма вена, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q27.0</Code>
+    <Name>Вродена липса и хипоплазия на пъпна артери</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>Q27.1</Code>
+    <Name>Вродена стеноза на бъбречна артери</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R07.0</Code>
+    <Name>Болка в гърлото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R07.1</Code>
+    <Name>Болка в гърдите при дишане</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R07.2</Code>
+    <Name>Болка в областта на сърцето</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R07.3</Code>
+    <Name>Други болки в гърдите</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R07.4</Code>
+    <Name>Болка в гърдите, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R09.0</Code>
+    <Name>Асфикси</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R09.1</Code>
+    <Name>Плеврит</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R09.2</Code>
+    <Name>Задържане на дишането</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R09.3</Code>
+    <Name>Храчка</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R09.8</Code>
+    <Name>Други уточнени симптоми и признаци, отнасящи се до сърдечно-съдовата и дихателната система</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R10.0</Code>
+    <Name>Остър корем</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R10.1</Code>
+    <Name>Болки, локализирани в горната част на корема</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R10.2</Code>
+    <Name>Болки в областта на таза и перинеума</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R10.3</Code>
+    <Name>Болки, локализирани в други области на долната част на корема</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R10.4</Code>
+    <Name>Други и неуточнени болки в областта на корема</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R16.0</Code>
+    <Name>Хепатомегалия, некласифицирана другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R16.1</Code>
+    <Name>Спленомегалия, некласифицирана другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>R16.2</Code>
+    <Name>Хепатомегалия със спленомегалия, некласифицирани другаде</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S40.0</Code>
+    <Name>Контузия на раменния пояс и мишницата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S40.7</Code>
+    <Name>Множествени повърхностни травми на раменния пояс и мишницата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S40.8</Code>
+    <Name>Други повърхностни травми на раменния пояс и мишницата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S40.9</Code>
+    <Name>Повърхностна травма на раменния пояс и мишницата, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S41.0</Code>
+    <Name>Открита рана на раменния пояс</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S41.1</Code>
+    <Name>Открита рана на мишницата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S41.7</Code>
+    <Name>Множествени открити рани на раменния пояс и мишницата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S41.8</Code>
+    <Name>Открита рана на друга и неуточнена част на раменния пояс</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S42.0</Code>
+    <Name>Счупване на ключицата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S42.1</Code>
+    <Name>Счупване на лопатката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S42.2</Code>
+    <Name>Счупване на горния край на раменната кост (хумерус)</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S42.3</Code>
+    <Name>Счупване на тялото [диафиза] на раменната кост</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S42.4</Code>
+    <Name>Счупване на долния край на хумеруса</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S42.7</Code>
+    <Name>Множествени счупвания на ключицата, лопатката и раменната кост</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>S42.8</Code>
+    <Name>Счупване на други части на раменния пояс и мишницата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T14.9</Code>
+    <Name>Травма, неуточнена</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T15.0</Code>
+    <Name>Чуждо тяло в роговицата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T15.1</Code>
+    <Name>Чуждо тяло в конюнктивалния сак</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T15.8</Code>
+    <Name>Чуждо тяло в друга или в няколко части на външното око</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T15.9</Code>
+    <Name>Чуждо тяло в неуточнена част на външното око</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T17.0</Code>
+    <Name>Чуждо тяло в назалния синус</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T17.1</Code>
+    <Name>Чуждо тяло в ноздрите</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T17.2</Code>
+    <Name>Чуждо тяло във фаринкса</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T17.3</Code>
+    <Name>Чуждо тяло в ларинкса</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T17.4</Code>
+    <Name>Чуждо тяло в трахеята</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T17.5</Code>
+    <Name>Чуждо тяло в бронхите</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T17.8</Code>
+    <Name>Чуждо тяло в друга или в няколко части на дихателните пътища</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T33.2</Code>
+    <Name>Повърхностно измръзване на гръдния кош</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T33.3</Code>
+    <Name>Повърхностно измръзване на коремната стена, седалището и таза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T33.4</Code>
+    <Name>Повърхностно измръзване на ръката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T33.5</Code>
+    <Name>Повърхностно измръзване на китката и дланта</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T33.6</Code>
+    <Name>Повърхностно измръзване на тазобедрената област и бедрото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T33.7</Code>
+    <Name>Повърхностно измръзване на коляното и подбедрицата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T33.8</Code>
+    <Name>Повърхностно измръзване в областите на глезена и стъпалото</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T33.9</Code>
+    <Name>Повърхностно измръзване с друга и неуточнена локализаци</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T34.0</Code>
+    <Name>Измръзване с некроза на тъканите в областта на главата</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T34.1</Code>
+    <Name>Измръзване с некроза на тъканите в областта на шията</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T34.2</Code>
+    <Name>Измръзване с некроза на тъканите в областта на гръдния кош</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T34.3</Code>
+    <Name>Измръзване с некроза на тъканите в областта на коремната стена, седалището и таза</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T34.4</Code>
+    <Name>Измръзване с некроза на тъканите в областта на ръката</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T34.5</Code>
+    <Name>Измръзване с некроза на тъканите в областта на китката и дланта</Name>
+  </Diagnosis>
+  <Diagnosis>
+    <Code>T34.6</Code>
+    <Name>Измръзване с некроза на тъканите в тазобедрената област и бедрото</Name>
+  </Diagnosis>
+</ArrayOfDiagnosis>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfPatient>
+  <Patient>
+    <EntityId>1</EntityId>
+    <PIDType>EGN</PIDType>
+    <PID>9706166900</PID>
+    <GivenName>Християн</GivenName>
+    <MiddleName>Петров</MiddleName>
+    <FamilyName>Димитров</FamilyName>
+    <DateOfBirth>1997-06-16</DateOfBirth>
+    <Gender>M</Gender>
+  </Patient>
+  <Patient>
+    <EntityId>2</EntityId>
+    <PIDType>EGN</PIDType>
+    <PID>4503121207</PID>
+    <GivenName>Янко</GivenName>
+    <MiddleName>Томов</MiddleName>
+    <FamilyName>Генадиев</FamilyName>
+    <DateOfBirth>1945-03-12</DateOfBirth>
+    <Gender>M</Gender>
+  </Patient>
+  <Patient>
+    <EntityId>3</EntityId>
+    <PIDType>Anonymous</PIDType>
+    <PID></PID>
+    <GivenName>Марийка</GivenName>
+    <MiddleName>Велинова</MiddleName>
+    <FamilyName>Абаджиева</FamilyName>
+    <DateOfBirth>1969-05-10</DateOfBirth>
+    <Gender>F</Gender>
+  </Patient>
+  <Patient>
+    <EntityId>4</EntityId>
+    <PIDType>ENCh</PIDType>
+    <PID>1006622074</PID>
+    <GivenName>Джон</GivenName>
+    <MiddleName>Марк</MiddleName>
+    <FamilyName>Белчев</FamilyName>
+    <DateOfBirth>1985-08-15</DateOfBirth>
+    <Gender>М</Gender>
+  </Patient>
+  <Patient>
+    <EntityId>5</EntityId>
+    <PIDType>Anonymous</PIDType>
+    <PID></PID>
+    <GivenName>Пациент 773</GivenName>
+    <MiddleName></MiddleName>
+    <FamilyName></FamilyName>
+  </Patient>
+</ArrayOfPatient>
+  

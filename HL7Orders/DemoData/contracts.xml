@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfContract>
+  <Contract>
+    <ContractNum>1701-5</ContractNum>
+    <Name>НЗОК-Пътеки</Name>
+  </Contract>
+  <Contract>
+    <ContractNum>MH22</ContractNum>
+    <Name>МЗ-Спешност</Name>
+  </Contract>
+  <Contract>
+    <ContractNum>1645</ContractNum>
+    <Name>Частни</Name>
+  </Contract>
+</ArrayOfContract>

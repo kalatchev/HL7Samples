@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfExamination>
+  <Examination>
+    <LoincCode>57021-8</LoincCode>
+    <Name>Пълна Кръвна Картина</Name>
+    <HisId>1-2</HisId>
+    <IsPanel>true</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>24318-8</LoincCode>
+    <Name>ДКК - микроскопски</Name>
+    <HisId>1-1</HisId>
+    <IsPanel>true</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>24357-6</LoincCode>
+    <Name>Урина Общо химично изследване</Name>
+    <HisId>1-3</HisId>
+    <IsPanel>true</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>14749-6</LoincCode>
+    <Name>Глюкоза</Name>
+    <HisId>0-9</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>22664-7</LoincCode>
+    <Name>Урея</Name>
+    <HisId>0-11</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>14682-9</LoincCode>
+    <Name>Креатинин</Name>
+    <HisId>0-13</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>2885-2</LoincCode>
+    <Name>Общ белтък</Name>
+    <HisId>0-15</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>14631-6</LoincCode>
+    <Name>Общ билирубин</Name>
+    <HisId>0-22</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>1920-8</LoincCode>
+    <Name>АсАТ</Name>
+    <HisId>0-18</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>1742-6</LoincCode>
+    <Name>АлАТ</Name>
+    <HisId>0-17</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>2324-2</LoincCode>
+    <Name>ГГТ</Name>
+    <HisId>0-68</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>6768-6</LoincCode>
+    <Name>Алкална фосфатаза</Name>
+    <HisId>0-69</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>14805-6</LoincCode>
+    <Name>ЛДХ</Name>
+    <HisId>0-52</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>14629-0</LoincCode>
+    <Name>Директен билирубин</Name>
+    <HisId>0-23</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>109-81</LoincCode>
+    <Name>Индиректен билирубин</Name>
+    <HisId>0-433</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>1751-7</LoincCode>
+    <Name>Албумин</Name>
+    <HisId>0-62</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>1798-8</LoincCode>
+    <Name>Алфа -амилаза</Name>
+    <HisId>0-49</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>14647-2</LoincCode>
+    <Name>Холестерол</Name>
+    <HisId>0-63</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>14927-8</LoincCode>
+    <Name>Триглицериди</Name>
+    <HisId>0-65</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>14646-4</LoincCode>
+    <Name>HDL- Холестерол</Name>
+    <HisId>0-66</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>39469-2</LoincCode>
+    <Name>LDL - Холестерол</Name>
+    <HisId>0-67</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>14933-6</LoincCode>
+    <Name>Пикочна киселина</Name>
+    <HisId>0-61</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>66126-4</LoincCode>
+    <Name>VLDL- холестерол</Name>
+    <HisId>0-437</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>1682-4</LoincCode>
+    <Name>Алфа - ХБДХ</Name>
+    <HisId>0-51</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>2157-6</LoincCode>
+    <Name>Креатинкиназа</Name>
+    <HisId>0-19</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>32673-6</LoincCode>
+    <Name>Креатинкиназа-МБ</Name>
+    <HisId>0-21</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>2098-2</LoincCode>
+    <Name>Холинестераза</Name>
+    <HisId>0-24</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+  <Examination>
+    <LoincCode>3040-3</LoincCode>
+    <Name>Липаза</Name>
+    <HisId>0-42</HisId>
+    <IsPanel>false</IsPanel>
+  </Examination>
+</ArrayOfExamination>

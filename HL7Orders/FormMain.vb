@@ -20,7 +20,6 @@
             MessageBox.Show("No message to send.")
             Exit Sub
         End If
-        Dim s As String
         Try
             Me.mAnswer = mSender.SendHL7Message(Me.mMessage)
             's = mSender.SendHL7Message(Me.mParser.Encode(Me.mMessage))

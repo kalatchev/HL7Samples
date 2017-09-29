@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfOrder>
+  <Order>
+    <OrderId>1001</OrderId>
+    <MessageId>5f25e074-331f-4b60-8c68-a5264b8f0495</MessageId>
+    <Created>2017-09-28T16:56:25.8348795+03:00</Created>
+    <Priority>Normal</Priority>
+    <ExamCodes>
+      <Code>57021-8</Code>
+      <Code>24357-6</Code>
+    </ExamCodes>
+    <IsSent>false</IsSent>
+    <MedicalCaseId>1</MedicalCaseId>
+    <OrdDoctorUIN>1200999945</OrdDoctorUIN>
+    <Note>
+      <![CDATA[Това е тестова забележка, съдържаща специални символи като |, ~, ^ и &.
+Нов ред.]]>
+    </Note>
+  </Order>
+</ArrayOfOrder>

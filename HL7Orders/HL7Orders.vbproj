@@ -162,6 +162,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BizHL7.vb" />
+    <Compile Include="FormAddExam.Designer.vb">
+      <DependentUpon>FormAddExam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddExam.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormMain.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -169,14 +175,32 @@
       <DependentUpon>FormMain.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormOrder.Designer.vb">
+      <DependentUpon>FormOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\HL7Utils.vb" />
+    <Compile Include="Helpers\XMLUtils.vb" />
+    <Compile Include="Hospital.Designer.vb">
+      <DependentUpon>Hospital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hospital.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Model\ConfigData.vb" />
     <Compile Include="Model\Constants.vb" />
+    <Compile Include="Model\Contract.vb" />
     <Compile Include="Model\DemoGenerator.vb" />
+    <Compile Include="Model\Diagnosis.vb" />
     <Compile Include="Model\Doctor.vb" />
     <Compile Include="Model\Examination.vb" />
     <Compile Include="Model\Location.vb" />
+    <Compile Include="Model\MedicalCase.vb" />
     <Compile Include="Model\Order.vb" />
     <Compile Include="Model\Patient.vb" />
+    <Compile Include="Model\Ward.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -194,8 +218,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormAddExam.resx">
+      <DependentUpon>FormAddExam.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrder.resx">
+      <DependentUpon>FormOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hospital.resx">
+      <DependentUpon>Hospital.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -216,6 +249,36 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DemoData\cases.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoData\contracts.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoData\diagnoses.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoData\doctors.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoData\examinations.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoData\orders.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoData\patients.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DemoData\wards.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\glasses-32.png" />
+    <None Include="Resources\glasses-16.png" />
+    <None Include="Resources\door-64.png" />
+    <None Include="Resources\plus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

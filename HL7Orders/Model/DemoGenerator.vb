@@ -5,24 +5,24 @@
             .OrderId = "158A",
             .Action = Constants.Actions.[New],
             .Priority = Constants.Priorities.Emergency,
-            .ToVisit = DateAdd(DateInterval.Day, 1, Now()),
+            .FutureVistTime = DateAdd(DateInterval.Day, 1, Now()),
             .Note =
                 "Това е тестова забележка, която дори включва специални символи кто |, ^, & и ~." & vbCrLf &
                 "И дори Windows-style нов ред, както и Linux-style." & vbCr & " Демонстрира escape техниките в HL7."
         }
-        Ord.Diagnosis.Add("D56.0", "Алфа таласемия")
-        Ord.Diagnosis.Add("O26.0", "Наднормено наддаване на тегло по време на бременността")
-        Ord.Patient = New Patient With {
-            .PIDType = Constants.PIDTypes.EGN,
-            .PID = "9706166900",
-            .GivenName = "Християн",
-            .MiddleName = "Петров",
-            .FamilyName = "Димитров",
-            .MedicalCase = "12032/2017",
-            .EntityId = "61922",
-            .DateOfBirth = New Date(1997, 6, 16),
-            .Gender = "M"
-        }
+        'Ord.Diagnosis.Add("D56.0", "Алфа таласемия")
+        'Ord.Diagnosis.Add("O26.0", "Наднормено наддаване на тегло по време на бременността")
+        'Ord.Patient = New Patient With {
+        '    .PIDType = Constants.PIDTypes.EGN,
+        '    .PID = "9706166900",
+        '    .GivenName = "Християн",
+        '    .MiddleName = "Петров",
+        '    .FamilyName = "Димитров",
+        '    .MedicalCase = "12032/2017",
+        '    .EntityId = "61922",
+        '    .DateOfBirth = New Date(1997, 6, 16),
+        '    .Gender = "M"
+        '}
         Ord.OrderingDoctor = New Doctor With {
             .UIN = "0300999977",
             .Title = "Д-р",

@@ -48,7 +48,7 @@ Public Class BizHL7
 
         'Medical record (ID на пациента в БИС)
         If Not String.IsNullOrWhiteSpace(BizPatient.EntityId) Then
-            ModelPatient.PID.GetPatientIdentifierList(Ind).IDNumber.Value = BizPatient.EntityId.Trim
+            ModelPatient.PID.GetPatientIdentifierList(Ind).IDNumber.Value = BizPatient.EntityId.ToString
             ModelPatient.PID.GetPatientIdentifierList(Ind).AssigningAuthority.NamespaceID.Value = "HIS"
             ModelPatient.PID.GetPatientIdentifierList(Ind).IdentifierTypeCode.Value = "MR"
             Ind += 1
@@ -100,24 +100,24 @@ Public Class BizHL7
         ' Ord.ORC.GetOrderingProvider(0).DegreeEgMD.Value = "MD" 'Only MD is applicable for doctors
 
         'Date and time to visit (in case of future order, do not set in case of supplemental order)
-        If BizOrder.ToVisit.HasValue Then
-            Ord.ORC.GetQuantityTiming(0).StartDateTime.Time.Value = BizOrder.ToVisit.Value.ToString("yyyyMMddHHmm")
+        If BizOrder.FutureVistTime.HasValue Then
+            Ord.ORC.GetQuantityTiming(0).StartDateTime.Time.Value = BizOrder.FutureVistTime.Value.ToString("yyyyMMddHHmm")
         End If
 
-        'Ord.AddTIMING()
-        'Ord.TIMINGs(0).TQ1.SetIDTQ1.Value = "1"
-        'Select Case BizOrder.Priority
-        '    Case Constants.Priorities.Normal
-        '        Ord.TIMINGs(0).TQ1.GetPriority(0).Identifier.Value = "R"
-        '        Ord.TIMINGs(0).TQ1.GetPriority(0).Text.Value = "Routine"
-        '    Case Constants.Priorities.Emergency
-        '        Ord.TIMINGs(0).TQ1.GetPriority(0).Identifier.Value = "S"
-        '        Ord.TIMINGs(0).TQ1.GetPriority(0).Text.Value = "STAT"
-        '    Case Else
-        '        'Default priority
-        '        Ord.TIMINGs(0).TQ1.GetPriority(0).Identifier.Value = "R"
-        '        Ord.TIMINGs(0).TQ1.GetPriority(0).Text.Value = "Routine"
-        'End Select
+        Ord.AddTIMING()
+        Ord.TIMINGs(0).TQ1.SetIDTQ1.Value = "1"
+        Select Case BizOrder.Priority
+            Case Constants.Priorities.Normal
+                Ord.TIMINGs(0).TQ1.GetPriority(0).Identifier.Value = "R"
+                Ord.TIMINGs(0).TQ1.GetPriority(0).Text.Value = "Routine"
+            Case Constants.Priorities.Emergency
+                Ord.TIMINGs(0).TQ1.GetPriority(0).Identifier.Value = "S"
+                Ord.TIMINGs(0).TQ1.GetPriority(0).Text.Value = "STAT"
+            Case Else
+                'Default priority
+                Ord.TIMINGs(0).TQ1.GetPriority(0).Identifier.Value = "R"
+                Ord.TIMINGs(0).TQ1.GetPriority(0).Text.Value = "Routine"
+        End Select
 
 
         'NTE --------------------------------------------
@@ -167,7 +167,7 @@ Public Class BizHL7
         'PATIENT Group (required)
         Msg.PATIENT.PID.SetIDPID.Value = "1" 'First and only one Patient
         'PID 
-        Me.FillPID(Msg.PATIENT, BizOrder.Patient)
+        'Me.FillPID(Msg.PATIENT, BizOrder.Patient)
 
         'PV1 
         Msg.PATIENT.PATIENT_VISIT.PV1.SetIDPV1.Value = "1" 'First and only one Visit
@@ -187,18 +187,18 @@ Public Class BizHL7
             Msg.ORDERs(ExamInd).OBSERVATION_REQUEST.OBR.UniversalServiceIdentifier.AlternateIdentifier.Value = CurExam.HisId
             Msg.ORDERs(ExamInd).OBSERVATION_REQUEST.OBR.UniversalServiceIdentifier.NameOfAlternateCodingSystem.Value = "HCPT" 'HIS code
 
-            Dim DiagId As Integer = 1
-            For Each dg In BizOrder.Diagnosis
-                Dim d As NHapi.Model.V251.Segment.DG1 = Msg.ORDERs(ExamInd).OBSERVATION_REQUEST.AddDG1()
-                With d
-                    .SetIDDG1.Value = DiagId.ToString
-                    .DiagnosisCodeDG1.Identifier.Value = dg.Key
-                    .DiagnosisCodeDG1.NameOfCodingSystem.Value = "I10" 'ICD-10
-                    .DiagnosisCodeDG1.Text.Value = dg.Value
-                    .DiagnosisType.Value = "W" 'Working
-                End With
-                DiagId += 1
-            Next
+            'Dim DiagId As Integer = 1
+            'For Each dg In BizOrder.Diagnosis
+            '    Dim d As NHapi.Model.V251.Segment.DG1 = Msg.ORDERs(ExamInd).OBSERVATION_REQUEST.AddDG1()
+            '    With d
+            '        .SetIDDG1.Value = DiagId.ToString
+            '        .DiagnosisCodeDG1.Identifier.Value = dg.Key
+            '        .DiagnosisCodeDG1.NameOfCodingSystem.Value = "I10" 'ICD-10
+            '        .DiagnosisCodeDG1.Text.Value = dg.Value
+            '        .DiagnosisType.Value = "W" 'Working
+            '    End With
+            '    DiagId += 1
+            'Next
 
             Msg.ORDERs(ExamInd).BLG.AccountID.IDNumber.Value = "201601"
             Msg.ORDERs(ExamInd).BLG.AccountID.AssigningAuthority.NamespaceID.Value = "Hospital"
