@@ -85,4 +85,13 @@
     <BedCode>94</BedCode>
     <ContractNum>1645</ContractNum>
   </MedicalCase>
+  <MedicalCase>
+    <Id>10</Id>
+    <PatientId>10</PatientId>
+    <WardCode>3350</WardCode>
+    <CaseNumber>1234/2017</CaseNumber>
+    <RoomCode>10</RoomCode>
+    <BedCode>11</BedCode>
+    <ContractNum>MH22</ContractNum>
+  </MedicalCase>
 </ArrayOfMedicalCase>
