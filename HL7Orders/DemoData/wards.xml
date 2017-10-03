@@ -12,5 +12,17 @@
     <Code>3350</Code>
     <Name>Реанимация</Name>
   </Ward>
+  <Ward>
+    <Code>3370</Code>
+    <Name>Нефрология</Name>
+  </Ward>
+  <Ward>
+    <Code>3390</Code>
+    <Name>Физиотерапия</Name>
+  </Ward>
+  <Ward>
+    <Code>3430</Code>
+    <Name>Кардиология</Name>
+  </Ward>
 </ArrayOfWard>
 

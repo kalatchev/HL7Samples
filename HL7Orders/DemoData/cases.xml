@@ -49,4 +49,40 @@
     <BedCode>6</BedCode>
     <ContractNum>MH22</ContractNum>
   </MedicalCase>
+  <MedicalCase>
+    <Id>6</Id>
+    <PatientId>6</PatientId>
+    <WardCode>3370</WardCode>
+    <CaseNumber>1545/2017</CaseNumber>
+    <RoomCode>6</RoomCode>
+    <BedCode>61</BedCode>
+    <ContractNum>1701-5</ContractNum>
+  </MedicalCase>
+  <MedicalCase>
+    <Id>7</Id>
+    <PatientId>7</PatientId>
+    <WardCode>3390</WardCode>
+    <CaseNumber>1565/2017</CaseNumber>
+    <RoomCode>7</RoomCode>
+    <BedCode>72</BedCode>
+    <ContractNum>1701-5</ContractNum>
+  </MedicalCase>
+  <MedicalCase>
+    <Id>8</Id>
+    <PatientId>8</PatientId>
+    <WardCode>3430</WardCode>
+    <CaseNumber>1675/2017</CaseNumber>
+    <RoomCode>8</RoomCode>
+    <BedCode>83</BedCode>
+    <ContractNum>1701-5</ContractNum>
+  </MedicalCase>
+  <MedicalCase>
+    <Id>9</Id>
+    <PatientId>9</PatientId>
+    <WardCode>3320</WardCode>
+    <CaseNumber>2000/2017</CaseNumber>
+    <RoomCode>9</RoomCode>
+    <BedCode>94</BedCode>
+    <ContractNum>1645</ContractNum>
+  </MedicalCase>
 </ArrayOfMedicalCase>

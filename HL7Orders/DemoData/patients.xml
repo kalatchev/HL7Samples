@@ -48,5 +48,77 @@
     <MiddleName></MiddleName>
     <FamilyName></FamilyName>
   </Patient>
+  <Patient>
+    <EntityId>6</EntityId>
+    <PIDType>EGN</PIDType>
+    <PID>6610143845</PID>
+    <GivenName>Наско</GivenName>
+    <MiddleName>Трифонов</MiddleName>
+    <FamilyName>Атанасов</FamilyName>
+  </Patient>
+  <Patient>
+    <EntityId>7</EntityId>
+    <PIDType>EGN</PIDType>
+    <PID>4504100092</PID>
+    <GivenName>Звезда</GivenName>
+    <MiddleName>Кръстева</MiddleName>
+    <FamilyName>Станоева</FamilyName>
+  </Patient>
+  <Patient>
+    <EntityId>8</EntityId>
+    <PIDType>EGN</PIDType>
+    <PID>4004231751</PID>
+    <GivenName>Славка</GivenName>
+    <MiddleName>Костадинова</MiddleName>
+    <FamilyName>Петкова</FamilyName>
+  </Patient>
+  <Patient>
+    <EntityId>9</EntityId>
+    <PIDType>ENCh</PIDType>
+    <PID>1001413499</PID>
+    <GivenName>Тимур</GivenName>
+    <MiddleName>Геннадиевич</MiddleName>
+    <FamilyName>Жигулин</FamilyName>
+  </Patient>
+  <Patient>
+    <EntityId>10</EntityId>
+    <PIDType>ENCh</PIDType>
+    <PID>1001356037</PID>
+    <GivenName>Йоанис</GivenName>
+    <MiddleName>Хрисанти</MiddleName>
+    <FamilyName>Лефкадити</FamilyName>
+  </Patient>
+  <Patient>
+    <EntityId>11</EntityId>
+    <PIDType>ENCh</PIDType>
+    <PID>1001973306</PID>
+    <GivenName>Сандра</GivenName>
+    <MiddleName></MiddleName>
+    <FamilyName>Цонева</FamilyName>
+  </Patient>
+  <Patient>
+    <EntityId>12</EntityId>
+    <PIDType>Anonymous</PIDType>
+    <PID></PID>
+    <GivenName>Пациент Соня</GivenName>
+    <MiddleName></MiddleName>
+    <FamilyName>Пенева</FamilyName>
+  </Patient>
+  <Patient>
+    <EntityId>13</EntityId>
+    <PIDType>Anonymous</PIDType>
+    <PID></PID>
+    <GivenName>Пациент Виктор</GivenName>
+    <MiddleName></MiddleName>
+    <FamilyName>Догнев</FamilyName>
+  </Patient>
+  <Patient>
+    <EntityId>14</EntityId>
+    <PIDType>Anonymous</PIDType>
+    <PID></PID>
+    <GivenName>Пациент Стойко</GivenName>
+    <MiddleName></MiddleName>
+    <FamilyName>Велев</FamilyName>
+  </Patient>
 </ArrayOfPatient>
   
