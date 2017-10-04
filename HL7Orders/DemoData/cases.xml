@@ -52,7 +52,7 @@
   <MedicalCase>
     <Id>6</Id>
     <PatientId>6</PatientId>
-    <WardCode>3370</WardCode>
+    <WardCode>3320</WardCode>
     <CaseNumber>1545/2017</CaseNumber>
     <RoomCode>6</RoomCode>
     <BedCode>61</BedCode>
@@ -61,7 +61,7 @@
   <MedicalCase>
     <Id>7</Id>
     <PatientId>7</PatientId>
-    <WardCode>3390</WardCode>
+    <WardCode>3320</WardCode>
     <CaseNumber>1565/2017</CaseNumber>
     <RoomCode>7</RoomCode>
     <BedCode>72</BedCode>
@@ -70,7 +70,7 @@
   <MedicalCase>
     <Id>8</Id>
     <PatientId>8</PatientId>
-    <WardCode>3430</WardCode>
+    <WardCode>3350</WardCode>
     <CaseNumber>1675/2017</CaseNumber>
     <RoomCode>8</RoomCode>
     <BedCode>83</BedCode>
@@ -79,7 +79,7 @@
   <MedicalCase>
     <Id>9</Id>
     <PatientId>9</PatientId>
-    <WardCode>3320</WardCode>
+    <WardCode>3310</WardCode>
     <CaseNumber>2000/2017</CaseNumber>
     <RoomCode>9</RoomCode>
     <BedCode>94</BedCode>
@@ -93,5 +93,41 @@
     <RoomCode>10</RoomCode>
     <BedCode>11</BedCode>
     <ContractNum>MH22</ContractNum>
+  </MedicalCase>
+  <MedicalCase>
+    <Id>11</Id>
+    <PatientId>11</PatientId>
+    <WardCode>3320</WardCode>
+    <CaseNumber>1334/2017</CaseNumber>
+    <RoomCode>11</RoomCode>
+    <BedCode>12</BedCode>
+    <ContractNum>MH22</ContractNum>
+  </MedicalCase>
+  <MedicalCase>
+    <Id>12</Id>
+    <PatientId>12</PatientId>
+    <WardCode>3350</WardCode>
+    <CaseNumber>1734/2017</CaseNumber>
+    <RoomCode>12</RoomCode>
+    <BedCode>13</BedCode>
+    <ContractNum>MH22</ContractNum>
+  </MedicalCase>
+  <MedicalCase>
+    <Id>13</Id>
+    <PatientId>13</PatientId>
+    <WardCode>3310</WardCode>
+    <CaseNumber>1834/2017</CaseNumber>
+    <RoomCode>13</RoomCode>
+    <BedCode>14</BedCode>
+    <ContractNum>1701-5</ContractNum>
+  </MedicalCase>
+  <MedicalCase>
+    <Id>14</Id>
+    <PatientId>14</PatientId>
+    <WardCode>3310</WardCode>
+    <CaseNumber>1934/2017</CaseNumber>
+    <RoomCode>14</RoomCode>
+    <BedCode>24</BedCode>
+    <ContractNum>1701-5</ContractNum>
   </MedicalCase>
 </ArrayOfMedicalCase>
