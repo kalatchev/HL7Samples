@@ -189,14 +189,14 @@ Public Class Hospital
         Dim Res As String = ""
         Select Case CType(a, NHapi.Model.V251.Message.ACK).MSA.AcknowledgmentCode.Value
             Case "AA"
-                Res = "OK."
+                Res = "OK"
             Case "AR"
                 Res = "Rejected: " & CType(a, NHapi.Model.V251.Message.ACK).MSA.TextMessage.Value
             Case "AE"
                 Res = "Error: " & CType(a, NHapi.Model.V251.Message.ACK).MSA.TextMessage.Value
             Case Else
-                Res = "Unknown answer."
+                Res = "Unknown answer"
         End Select
-        MessageBox.Show(Res)
+        MessageBox.Show("Server result:" & vbCrLf & Res, My.Application.Info.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 End Class
