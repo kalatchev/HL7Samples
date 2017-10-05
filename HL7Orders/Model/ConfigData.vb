@@ -1,7 +1,9 @@
-﻿Public Class ConfigData
+﻿Imports System.Xml.Serialization
 
-    'Load data from somwhere
-    'Here hard coded constants are used
+<Serializable>
+Public Class ConfigData
+
+    'Default data
     Public Property OriginApp As String = "BestHIS"
     Public Property OriginFacility As String = "МБАЛ АД"
     Public Property TargetApp As String = "iLab"
@@ -21,7 +23,10 @@
 
     'Shared (static) function to get one and only one shared (static) instance
     Public Shared Function Instance() As ConfigData
-        If ConfigData.mInstance Is Nothing Then ConfigData.mInstance = New ConfigData
+        If ConfigData.mInstance Is Nothing Then
+            'Read data from conf file
+            mInstance = XMLUtils.ReadObject(Of ConfigData)(IO.Path.Combine(Application.StartupPath, "DemoData", "conf.xml"))
+        End If
         Return ConfigData.mInstance
     End Function
 

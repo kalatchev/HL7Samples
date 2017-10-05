@@ -98,10 +98,10 @@ Public Class Hospital
     End Sub
 
 
-    Private Sub ToolStripButtonOrder_Click(sender As Object, e As EventArgs) Handles ToolStripButtonOrder.Click
-        Dim f As New FormAddExam
-        f.LoadData(Me.mExaminations)
-        f.ShowDialog()
+    Private Sub ToolStripButtonOrder_Click(sender As Object, e As EventArgs)
+        'Dim f As New FormAddExam
+        'f.LoadData(Me.mExaminations)
+        'f.ShowDialog()
     End Sub
 
     Private Sub ListViewWards_ItemActivate(sender As Object, e As EventArgs) Handles ListViewWards.ItemActivate
@@ -160,11 +160,43 @@ Public Class Hospital
     End Sub
 
     Private Sub ToolStripButtonView_Click(sender As Object, e As EventArgs) Handles ToolStripButtonView.Click
+        If Me.ListViewOrders.SelectedItems.Count <> 1 Then
+            MessageBox.Show("Select order to view.")
+            Exit Sub
+        End If
         If Me.ListViewOrders.SelectedItems.Count < 1 Then Exit Sub
-        Dim p As Order = DirectCast(Me.ListViewOrders.SelectedItems.Item(0).Tag, Order)
-        Dim cont As String = HL7Utils.GetWinStringMsg(HL7Utils.Order2Message(ConfigData.Instance, p))
+        Dim o As Order = DirectCast(Me.ListViewOrders.SelectedItems.Item(0).Tag, Order)
+        Dim cont As String = HL7Utils.GetWinStringMsg(HL7Utils.Order2Message(ConfigData.Instance, o))
         Dim fn As String = IO.Path.Combine(My.Computer.FileSystem.SpecialDirectories.Temp, "hl7orders.txt")
         My.Computer.FileSystem.WriteAllText(fn, cont, False)
         Process.Start(fn)
+    End Sub
+
+    Private Sub ToolStripButtonSend_Click(sender As Object, e As EventArgs) Handles ToolStripButtonSend.Click
+        If Me.ListViewOrders.SelectedItems.Count <> 1 Then
+            MessageBox.Show("Select order to send.")
+            Exit Sub
+        End If
+        Dim o As Order = DirectCast(Me.ListViewOrders.SelectedItems.Item(0).Tag, Order)
+        Dim a As NHapi.Base.Model.IMessage
+        Dim s As New NHapiTools.Base.Net.SimpleMLLPClient(ConfigData.Instance.RemoteHost, ConfigData.Instance.RemoetPort, System.Text.Encoding.UTF8)
+        Try
+            a = s.SendHL7Message(HL7Utils.Order2Message(ConfigData.Instance, o))
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+            Exit Sub
+        End Try
+        Dim Res As String = ""
+        Select Case CType(a, NHapi.Model.V251.Message.ACK).MSA.AcknowledgmentCode.Value
+            Case "AA"
+                Res = "OK."
+            Case "AR"
+                Res = "Rejected: " & CType(a, NHapi.Model.V251.Message.ACK).MSA.TextMessage.Value
+            Case "AE"
+                Res = "Error: " & CType(a, NHapi.Model.V251.Message.ACK).MSA.TextMessage.Value
+            Case Else
+                Res = "Unknown answer."
+        End Select
+        MessageBox.Show(Res)
     End Sub
 End Class

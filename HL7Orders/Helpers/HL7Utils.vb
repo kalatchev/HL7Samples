@@ -131,6 +131,9 @@ Public Class HL7Utils
                 SegmentORC.OrderControl.Value = "NW"
         End Select
 
+        'ORC.2.1 Order ID - required
+        SegmentORC.PlacerOrderNumber.EntityIdentifier.Value = Ord.OrderId
+
         'Ordering doctor
         SegmentORC.GetOrderingProvider(0).IDNumber.Value = Ord.OrderingDoctor.UIN
         SegmentORC.GetOrderingProvider(0).GivenName.Value = Ord.OrderingDoctor.GivenName
@@ -254,17 +257,17 @@ Public Class HL7Utils
 
         Next
 
-
-
-
-
         Return Msg
     End Function
 
-    Public Shared Function GetWinStringMsg(Msg As IMessage) As String
+    Public Shared Function GetStringMsg(Msg As IMessage) As String
         If Msg Is Nothing Then Return ""
         Dim p As New NHapi.Base.Parser.PipeParser
-        Return p.Encode(Msg).Replace(vbCr, vbCrLf)
+        Return p.Encode(Msg)
+    End Function
+
+    Public Shared Function GetWinStringMsg(Msg As IMessage) As String
+        Return GetStringMsg(Msg).Replace(vbCr, vbCrLf)
     End Function
 
 End Class

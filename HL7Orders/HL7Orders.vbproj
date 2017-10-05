@@ -254,6 +254,9 @@
     <Content Include="DemoData\cases.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="DemoData\conf.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="DemoData\contracts.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -275,6 +278,8 @@
     <Content Include="DemoData\wards.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\mail-arrow-64.png" />
+    <None Include="Resources\hammer-wrench-64.png" />
     <None Include="Resources\glasses-32.png" />
     <None Include="Resources\glasses-16.png" />
     <None Include="Resources\door-64.png" />

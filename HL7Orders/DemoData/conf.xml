@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigData>
+  <OriginApp>BestHIS</OriginApp>
+  <OriginFacility>МБАЛ АД</OriginFacility>
+  <TargetApp>iLab</TargetApp>
+  <TargetFacility>Клинична лаборатория</TargetFacility>
+  <RemoteHost>demo.skyware-group.com</RemoteHost>
+  <RemoetPort>2575</RemoetPort>
+  <OrderNumberNamespace>R</OrderNumberNamespace>
+</ConfigData>

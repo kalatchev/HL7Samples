@@ -26,7 +26,6 @@ Partial Class Hospital
         Me.ToolStripStatusLabelWard = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabelPatient = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripMain = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.SplitContainerMain = New System.Windows.Forms.SplitContainer()
         Me.ListViewWards = New System.Windows.Forms.ListView()
         Me.ColumnHeaderWardName = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -42,13 +41,14 @@ Partial Class Hospital
         Me.ColumnHeaderContract = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ListViewOrders = New System.Windows.Forms.ListView()
         Me.ColumnHeaderId = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ColumnHeaderCreated = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeaderDoc = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeaderUrgent = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeaderSent = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripButtonView = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButtonOrder = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButtonSend = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButtonExit = New System.Windows.Forms.ToolStripButton()
         Me.StatusStripMain.SuspendLayout()
         Me.ToolStripMain.SuspendLayout()
@@ -86,17 +86,12 @@ Partial Class Hospital
         'ToolStripMain
         '
         Me.ToolStripMain.ImageScalingSize = New System.Drawing.Size(24, 24)
-        Me.ToolStripMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButtonOrder, Me.ToolStripSeparator1, Me.ToolStripButtonExit})
+        Me.ToolStripMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButtonExit})
         Me.ToolStripMain.Location = New System.Drawing.Point(0, 0)
         Me.ToolStripMain.Name = "ToolStripMain"
         Me.ToolStripMain.Size = New System.Drawing.Size(1519, 31)
         Me.ToolStripMain.TabIndex = 1
         Me.ToolStripMain.Text = "ToolStrip1"
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 31)
         '
         'SplitContainerMain
         '
@@ -152,7 +147,7 @@ Partial Class Hospital
         Me.SplitContainerChild.Panel2.Controls.Add(Me.ListViewOrders)
         Me.SplitContainerChild.Panel2.Controls.Add(Me.ToolStrip1)
         Me.SplitContainerChild.Size = New System.Drawing.Size(1187, 851)
-        Me.SplitContainerChild.SplitterDistance = 201
+        Me.SplitContainerChild.SplitterDistance = 200
         Me.SplitContainerChild.SplitterWidth = 10
         Me.SplitContainerChild.TabIndex = 1
         '
@@ -165,7 +160,7 @@ Partial Class Hospital
         Me.ListViewCases.Location = New System.Drawing.Point(0, 0)
         Me.ListViewCases.MultiSelect = False
         Me.ListViewCases.Name = "ListViewCases"
-        Me.ListViewCases.Size = New System.Drawing.Size(1187, 201)
+        Me.ListViewCases.Size = New System.Drawing.Size(1187, 200)
         Me.ListViewCases.TabIndex = 0
         Me.ListViewCases.UseCompatibleStateImageBehavior = False
         Me.ListViewCases.View = System.Windows.Forms.View.Details
@@ -217,7 +212,7 @@ Partial Class Hospital
         Me.ListViewOrders.FullRowSelect = True
         Me.ListViewOrders.Location = New System.Drawing.Point(0, 33)
         Me.ListViewOrders.Name = "ListViewOrders"
-        Me.ListViewOrders.Size = New System.Drawing.Size(1187, 607)
+        Me.ListViewOrders.Size = New System.Drawing.Size(1187, 608)
         Me.ListViewOrders.TabIndex = 1
         Me.ListViewOrders.UseCompatibleStateImageBehavior = False
         Me.ListViewOrders.View = System.Windows.Forms.View.Details
@@ -226,16 +221,6 @@ Partial Class Hospital
         '
         Me.ColumnHeaderId.Text = "Order Id"
         Me.ColumnHeaderId.Width = 70
-        '
-        'ToolStrip1
-        '
-        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButtonView})
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(1187, 33)
-        Me.ToolStrip1.TabIndex = 0
-        Me.ToolStrip1.Text = "ToolStripOrders"
         '
         'ColumnHeaderCreated
         '
@@ -257,24 +242,38 @@ Partial Class Hospital
         Me.ColumnHeaderSent.Text = "Sent"
         Me.ColumnHeaderSent.Width = 55
         '
+        'ToolStrip1
+        '
+        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButtonView, Me.ToolStripSeparator1, Me.ToolStripButtonSend})
+        Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.ToolStrip1.Name = "ToolStrip1"
+        Me.ToolStrip1.Size = New System.Drawing.Size(1187, 33)
+        Me.ToolStrip1.TabIndex = 0
+        Me.ToolStrip1.Text = "ToolStripOrders"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 31)
+        '
         'ToolStripButtonView
         '
         Me.ToolStripButtonView.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ToolStripButtonView.Image = Global.HL7Orders.My.Resources.Resources.glasses_32
         Me.ToolStripButtonView.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButtonView.Name = "ToolStripButtonView"
-        Me.ToolStripButtonView.Size = New System.Drawing.Size(28, 30)
+        Me.ToolStripButtonView.Size = New System.Drawing.Size(28, 28)
         Me.ToolStripButtonView.ToolTipText = "View message"
         '
-        'ToolStripButtonOrder
+        'ToolStripButtonSend
         '
-        Me.ToolStripButtonOrder.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButtonOrder.Image = Global.HL7Orders.My.Resources.Resources.plus
-        Me.ToolStripButtonOrder.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButtonOrder.Name = "ToolStripButtonOrder"
-        Me.ToolStripButtonOrder.Size = New System.Drawing.Size(28, 28)
-        Me.ToolStripButtonOrder.Text = "ToolStripButtonOrder"
-        Me.ToolStripButtonOrder.ToolTipText = "New Order"
+        Me.ToolStripButtonSend.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButtonSend.Image = Global.HL7Orders.My.Resources.Resources.mail_arrow_64
+        Me.ToolStripButtonSend.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButtonSend.Name = "ToolStripButtonSend"
+        Me.ToolStripButtonSend.Size = New System.Drawing.Size(28, 30)
+        Me.ToolStripButtonSend.Text = "Send"
         '
         'ToolStripButtonExit
         '
@@ -282,7 +281,7 @@ Partial Class Hospital
         Me.ToolStripButtonExit.Image = Global.HL7Orders.My.Resources.Resources.door_64
         Me.ToolStripButtonExit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButtonExit.Name = "ToolStripButtonExit"
-        Me.ToolStripButtonExit.Size = New System.Drawing.Size(28, 28)
+        Me.ToolStripButtonExit.Size = New System.Drawing.Size(28, 30)
         Me.ToolStripButtonExit.Text = "ToolStripButtonExit"
         Me.ToolStripButtonExit.ToolTipText = "Exit"
         '
@@ -331,8 +330,6 @@ Partial Class Hospital
     Friend WithEvents ColumnHeaderPID As ColumnHeader
     Friend WithEvents ColumnHeaderWardName As ColumnHeader
     Friend WithEvents ToolStripStatusLabelWard As ToolStripStatusLabel
-    Friend WithEvents ToolStripButtonOrder As ToolStripButton
-    Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
     Friend WithEvents ToolStripButtonExit As ToolStripButton
     Friend WithEvents ColumnHeaderContract As ColumnHeader
     Friend WithEvents SplitContainerChild As SplitContainer
@@ -345,4 +342,6 @@ Partial Class Hospital
     Friend WithEvents ColumnHeaderUrgent As ColumnHeader
     Friend WithEvents ColumnHeaderSent As ColumnHeader
     Friend WithEvents ToolStripButtonView As ToolStripButton
+    Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents ToolStripButtonSend As ToolStripButton
 End Class
