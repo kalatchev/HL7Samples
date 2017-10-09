@@ -3,19 +3,22 @@
 Public Class HL7Utils
 
     Private Shared Sub SetMSH(SegmentMSH As NHapi.Model.V251.Segment.MSH, Conf As ConfigData, MsgId As String)
-        SegmentMSH.SendingApplication.NamespaceID.Value = Conf.OriginApp
-        SegmentMSH.SendingFacility.NamespaceID.Value = Conf.OriginFacility
-        SegmentMSH.ReceivingApplication.NamespaceID.Value = Conf.TargetApp
-        SegmentMSH.ReceivingFacility.NamespaceID.Value = Conf.TargetFacility
-        SegmentMSH.DateTimeOfMessage.Time.Value = Now().ToString("yyyyMMddHHmmss")
-        SegmentMSH.MessageType.MessageStructure.Value = "OML_O21"
-        SegmentMSH.MessageControlID.Value = MsgId
-        SegmentMSH.ProcessingID.ProcessingID.Value = "P" 'P=Production mode
+        If SegmentMSH Is Nothing OrElse Conf Is Nothing Then Exit Sub
+        With SegmentMSH
+            .SendingApplication.NamespaceID.Value = Conf.OriginApp
+            .SendingFacility.NamespaceID.Value = Conf.OriginFacility
+            .ReceivingApplication.NamespaceID.Value = Conf.TargetApp
+            .ReceivingFacility.NamespaceID.Value = Conf.TargetFacility
+            .DateTimeOfMessage.Time.Value = Now().ToString("yyyyMMddHHmmss")
+            .MessageType.MessageStructure.Value = "OML_O21"
+            .MessageControlID.Value = MsgId
+            .ProcessingID.ProcessingID.Value = "P" 'P=Production mode
+        End With
     End Sub
 
-    Private Shared Sub AddSFT(Msg As NHapi.Model.V251.Message.OML_O21)
-        Dim s As NHapi.Model.V251.Segment.SFT = Msg.AddSFT()
-        With s
+    Private Shared Sub SetSFT(SegmentSFT As NHapi.Model.V251.Segment.SFT)
+        If SegmentSFT Is Nothing Then Exit Sub
+        With SegmentSFT
             .SoftwareProductName.Value = My.Application.Info.ProductName
             .SoftwareVendorOrganization.OrganizationName.Value = My.Application.Info.CompanyName
             .SoftwareCertifiedVersionOrReleaseNumber.Value = My.Application.Info.Version.ToString
@@ -23,17 +26,16 @@ Public Class HL7Utils
         End With
     End Sub
 
-    Private Shared Sub AddNTE(Msg As NHapi.Model.V251.Message.OML_O21, Note As String)
-        If Not String.IsNullOrWhiteSpace(Note) Then
-            Dim nt As NHapi.Model.V251.Segment.NTE = Msg.AddNTE()
-            With nt
-                .SetIDNTE.Value = "1" 'One and only one note
-                .GetComment(0).Value = Note
-            End With
-        End If
+    Private Shared Sub SetNTE(SegmentNTE As NHapi.Model.V251.Segment.NTE, Note As String)
+        With SegmentNTE
+            .SetIDNTE.Value = "1" 'One and only one note
+            .GetComment(0).Value = Note
+        End With
     End Sub
 
     Private Shared Sub SetPID(SegmentPID As NHapi.Model.V251.Segment.PID, Ord As Order)
+        If SegmentPID Is Nothing OrElse Ord Is Nothing Then Exit Sub
+
         SegmentPID.SetIDPID.Value = "1" 'First and only one PID
 
         If Ord.MedicalCase Is Nothing OrElse Ord.MedicalCase.Patient Is Nothing Then Exit Sub
@@ -42,21 +44,30 @@ Public Class HL7Utils
 
         'National identifier (ЕГН и ЕНЧ)
         If Ord.MedicalCase.Patient.PIDType = Constants.PIDTypes.EGN Then
-            SegmentPID.GetPatientIdentifierList(Ind).IDNumber.Value = Ord.MedicalCase.Patient.PID.Trim
-            SegmentPID.GetPatientIdentifierList(Ind).AssigningAuthority.NamespaceID.Value = "GRAO"
-            SegmentPID.GetPatientIdentifierList(Ind).IdentifierTypeCode.Value = "NI"
+            With SegmentPID.GetPatientIdentifierList(Ind)
+                .IDNumber.Value = Ord.MedicalCase.Patient.PID.Trim
+                .AssigningAuthority.NamespaceID.Value = "GRAO"
+                .IdentifierTypeCode.Value = "NI"
+            End With
             Ind += 1
         ElseIf Ord.MedicalCase.Patient.PIDType = Constants.PIDTypes.ENCh Then
-            SegmentPID.GetPatientIdentifierList(Ind).IDNumber.Value = Ord.MedicalCase.Patient.PID.Trim
-            SegmentPID.GetPatientIdentifierList(Ind).AssigningAuthority.NamespaceID.Value = "MVR"
-            SegmentPID.GetPatientIdentifierList(Ind).IdentifierTypeCode.Value = "NI"
+            With SegmentPID.GetPatientIdentifierList(Ind)
+                .IDNumber.Value = Ord.MedicalCase.Patient.PID.Trim
+                .AssigningAuthority.NamespaceID.Value = "MVR"
+                .IdentifierTypeCode.Value = "NI"
+            End With
             Ind += 1
         End If
 
+        'TODO: Set ambulatory/hospital MR
+
         'Medical record (ИЗ)
-        SegmentPID.GetPatientIdentifierList(Ind).IDNumber.Value = Ord.MedicalCase.CaseNumber
-        SegmentPID.GetPatientIdentifierList(Ind).AssigningAuthority.NamespaceID.Value = "Hospital"
-        SegmentPID.GetPatientIdentifierList(Ind).IdentifierTypeCode.Value = "MR"
+        With SegmentPID.GetPatientIdentifierList(Ind)
+            .IDNumber.Value = Ord.MedicalCase.CaseNumber
+            .AssigningAuthority.NamespaceID.Value = "Hospital"
+            .IdentifierTypeCode.Value = "MR"
+        End With
+
         Ind += 1
 
 
@@ -69,19 +80,23 @@ Public Class HL7Utils
         'End If
 
         'Medical record (ID на пациента в БИС, може и да е буквено-цифров)
-        SegmentPID.GetPatientIdentifierList(Ind).IDNumber.Value = Ord.MedicalCase.Id.ToString
-        SegmentPID.GetPatientIdentifierList(Ind).AssigningAuthority.NamespaceID.Value = "HIS"
-        SegmentPID.GetPatientIdentifierList(Ind).IdentifierTypeCode.Value = "MR"
+        With SegmentPID.GetPatientIdentifierList(Ind)
+            .IDNumber.Value = Ord.MedicalCase.Id.ToString
+            .AssigningAuthority.NamespaceID.Value = "HIS"
+            .IdentifierTypeCode.Value = "XX"
+        End With
         Ind += 1
 
 
         'Patient names - given, middle and family
-        SegmentPID.GetPatientName(0).GivenName.Value = Ord.MedicalCase.Patient.GivenName
-        SegmentPID.GetPatientName(0).SecondAndFurtherGivenNamesOrInitialsThereof.Value = Ord.MedicalCase.Patient.MiddleName
-        SegmentPID.GetPatientName(0).FamilyName.Surname.Value = Ord.MedicalCase.Patient.FamilyName
+        With SegmentPID.GetPatientName(0)
+            .GivenName.Value = Ord.MedicalCase.Patient.GivenName
+            .SecondAndFurtherGivenNamesOrInitialsThereof.Value = Ord.MedicalCase.Patient.MiddleName
+            .FamilyName.Surname.Value = Ord.MedicalCase.Patient.FamilyName
+        End With
 
+        'Patient date of birth
         If Ord.MedicalCase.Patient.DateOfBirth.HasValue Then
-            'Patient date of birth
             SegmentPID.DateTimeOfBirth.Time.Value = Ord.MedicalCase.Patient.DateOfBirth.Value.ToString("yyyyMMdd")
         End If
 
@@ -96,26 +111,30 @@ Public Class HL7Utils
     End Sub
 
     Private Shared Sub SetPV1(SegmentPV1 As NHapi.Model.V251.Segment.PV1, Ord As Order)
+        If SegmentPV1 Is Nothing Then Exit Sub
+
         'PV.1 Set ID
         SegmentPV1.SetIDPV1.Value = "1" 'First and only one PV1
 
         If Ord.MedicalCase Is Nothing OrElse Ord.MedicalCase.Patient Is Nothing Then Exit Sub
 
         'PV1.2 Patient Class
-        'TODO: PV1.2!
+        'TODO: PV1.2 (inpatient/outpatient)!
         SegmentPV1.PatientClass.Value = "I" 'Inpatient
 
-        'PV1.3.1 Point Of Care
-        SegmentPV1.AssignedPatientLocation.PointOfCare.Value = Ord.MedicalCase.Ward.Name
+        With SegmentPV1.AssignedPatientLocation
+            'PV1.3.1 Point Of Care
+            .PointOfCare.Value = Ord.MedicalCase.Ward.Name
 
-        'PV1.3.2 Room
-        SegmentPV1.AssignedPatientLocation.Room.Value = Ord.MedicalCase.RoomCode
+            'PV1.3.2 Room
+            .Room.Value = Ord.MedicalCase.RoomCode
 
-        'PV1.3.3 Bed
-        SegmentPV1.AssignedPatientLocation.Bed.Value = Ord.MedicalCase.BedCode
+            'PV1.3.3 Bed
+            .Bed.Value = Ord.MedicalCase.BedCode
 
-        'PV1.3.4 Facility
-        SegmentPV1.AssignedPatientLocation.Facility.NamespaceID.Value = Ord.MedicalCase.Ward.Code
+            'PV1.3.4 Facility
+            .Facility.NamespaceID.Value = Ord.MedicalCase.Ward.Code
+        End With
 
     End Sub
 
@@ -134,18 +153,21 @@ Public Class HL7Utils
         'ORC.2.1 Order ID - required
         SegmentORC.PlacerOrderNumber.EntityIdentifier.Value = Ord.OrderId
 
-        'Ordering doctor
-        SegmentORC.GetOrderingProvider(0).IDNumber.Value = Ord.OrderingDoctor.UIN
-        SegmentORC.GetOrderingProvider(0).GivenName.Value = Ord.OrderingDoctor.GivenName
-        SegmentORC.GetOrderingProvider(0).SecondAndFurtherGivenNamesOrInitialsThereof.Value = Ord.OrderingDoctor.MiddleName
-        SegmentORC.GetOrderingProvider(0).FamilyName.Surname.Value = Ord.OrderingDoctor.FamilyName
-        SegmentORC.GetOrderingProvider(0).PrefixEgDR.Value = Ord.OrderingDoctor.Title
-        SegmentORC.GetOrderingProvider(0).AssigningAuthority.NamespaceID.Value = "BLS"
-        SegmentORC.GetOrderingProvider(0).IdentifierTypeCode.Value = "DN"
-
+        'ORC.7.4 Quantity/Timing - Start Date/Time
         If Ord.FutureVistTime.HasValue Then
             SegmentORC.GetQuantityTiming(0).StartDateTime.Time.Value = Ord.FutureVistTime.Value.ToString("yyyyMMddHHmm")
         End If
+
+        'ORC.12. Ordering Provide - Ordering doctor
+        With SegmentORC.GetOrderingProvider(0)
+            .IDNumber.Value = Ord.OrderingDoctor.UIN
+            .GivenName.Value = Ord.OrderingDoctor.GivenName
+            .SecondAndFurtherGivenNamesOrInitialsThereof.Value = Ord.OrderingDoctor.MiddleName
+            .FamilyName.Surname.Value = Ord.OrderingDoctor.FamilyName
+            .PrefixEgDR.Value = Ord.OrderingDoctor.Title
+            .AssigningAuthority.NamespaceID.Value = "BLS"
+            .IdentifierTypeCode.Value = "DN"
+        End With
 
 
 
@@ -170,14 +192,26 @@ Public Class HL7Utils
     End Sub
 
     Private Shared Sub SetOBR(SegmentOBR As NHapi.Model.V251.Segment.OBR, Exm As Examination, Num As Integer, OrderId As String, OrdNamespace As String)
+        If SegmentOBR Is Nothing OrElse Exm Is Nothing Then Exit Sub
+
+        'OBR.1 - Set ID
         SegmentOBR.SetIDOBR.Value = Num.ToString
+
+        'OBR.2 -Placer Order Number
         SegmentOBR.PlacerOrderNumber.EntityIdentifier.Value = OrderId
-        SegmentOBR.PlacerOrderNumber.NamespaceID.Value = OrdNamespace
-        SegmentOBR.UniversalServiceIdentifier.Identifier.Value = Exm.LoincCode.Trim
-        SegmentOBR.UniversalServiceIdentifier.Text.Value = Exm.Name.ToString
-        SegmentOBR.UniversalServiceIdentifier.NameOfCodingSystem.Value = "LN" 'Loinc
-        SegmentOBR.UniversalServiceIdentifier.AlternateIdentifier.Value = Exm.HisId
-        SegmentOBR.UniversalServiceIdentifier.NameOfAlternateCodingSystem.Value = "HCPT" 'HIS code
+        If Not String.IsNullOrEmpty(OrdNamespace) Then
+            SegmentOBR.PlacerOrderNumber.NamespaceID.Value = OrdNamespace
+        End If
+
+        'OBR.4 - Universal Service Identifier
+        With SegmentOBR.UniversalServiceIdentifier
+            .Identifier.Value = Exm.LoincCode.Trim
+            .Text.Value = Exm.Name.ToString
+            .NameOfCodingSystem.Value = "LN" 'Loinc
+            .AlternateIdentifier.Value = Exm.HisId
+            .NameOfAlternateCodingSystem.Value = "HCPT" 'HIS code
+        End With
+
     End Sub
 
     Private Shared Sub AddDG1s(GroupOBSERVATIONREQUEST As NHapi.Model.V251.Group.OML_O21_OBSERVATION_REQUEST, MedCase As MedicalCase)
@@ -210,10 +244,12 @@ Public Class HL7Utils
         SetMSH(Msg.MSH, Conf, Guid.NewGuid.ToString)
 
         'SFT (optional, debug info, feel free to modify how the app data is retrieved)
-        AddSFT(Msg)
+        SetSFT(Msg.AddSFT)
 
         'NTE (optional)
-        AddNTE(Msg, Ord.Note)
+        If Not String.IsNullOrWhiteSpace(Ord.Note) Then
+            SetNTE(Msg.AddNTE(), Ord.Note)
+        End If
 
         'PATIENT group (optinal by stadard, requied by current integracion)
         Dim GroupPATIENT As NHapi.Model.V251.Group.OML_O21_PATIENT = Msg.PATIENT 'creates group if it is necesary

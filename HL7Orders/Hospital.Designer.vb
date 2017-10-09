@@ -26,6 +26,7 @@ Partial Class Hospital
         Me.ToolStripStatusLabelWard = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabelPatient = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripMain = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripButtonExit = New System.Windows.Forms.ToolStripButton()
         Me.SplitContainerMain = New System.Windows.Forms.SplitContainer()
         Me.ListViewWards = New System.Windows.Forms.ListView()
         Me.ColumnHeaderWardName = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -46,10 +47,13 @@ Partial Class Hospital
         Me.ColumnHeaderUrgent = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeaderSent = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripButtonView = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripButtonSend = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripButtonExit = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButtonEdit = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripButtonDelete = New System.Windows.Forms.ToolStripButton()
         Me.StatusStripMain.SuspendLayout()
         Me.ToolStripMain.SuspendLayout()
         CType(Me.SplitContainerMain, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -92,6 +96,16 @@ Partial Class Hospital
         Me.ToolStripMain.Size = New System.Drawing.Size(1519, 31)
         Me.ToolStripMain.TabIndex = 1
         Me.ToolStripMain.Text = "ToolStrip1"
+        '
+        'ToolStripButtonExit
+        '
+        Me.ToolStripButtonExit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButtonExit.Image = Global.HL7Orders.My.Resources.Resources.door_64
+        Me.ToolStripButtonExit.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButtonExit.Name = "ToolStripButtonExit"
+        Me.ToolStripButtonExit.Size = New System.Drawing.Size(28, 28)
+        Me.ToolStripButtonExit.Text = "ToolStripButtonExit"
+        Me.ToolStripButtonExit.ToolTipText = "Exit"
         '
         'SplitContainerMain
         '
@@ -245,17 +259,12 @@ Partial Class Hospital
         'ToolStrip1
         '
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButtonView, Me.ToolStripSeparator1, Me.ToolStripButtonSend})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButtonView, Me.ToolStripSeparator1, Me.ToolStripButtonSend, Me.ToolStripSeparator2, Me.ToolStripButtonEdit, Me.ToolStripSeparator3, Me.ToolStripButtonDelete})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(1187, 33)
         Me.ToolStrip1.TabIndex = 0
         Me.ToolStrip1.Text = "ToolStripOrders"
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 31)
         '
         'ToolStripButtonView
         '
@@ -263,8 +272,13 @@ Partial Class Hospital
         Me.ToolStripButtonView.Image = Global.HL7Orders.My.Resources.Resources.glasses_32
         Me.ToolStripButtonView.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButtonView.Name = "ToolStripButtonView"
-        Me.ToolStripButtonView.Size = New System.Drawing.Size(28, 28)
+        Me.ToolStripButtonView.Size = New System.Drawing.Size(28, 30)
         Me.ToolStripButtonView.ToolTipText = "View message"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 33)
         '
         'ToolStripButtonSend
         '
@@ -275,15 +289,33 @@ Partial Class Hospital
         Me.ToolStripButtonSend.Size = New System.Drawing.Size(28, 30)
         Me.ToolStripButtonSend.Text = "Send"
         '
-        'ToolStripButtonExit
+        'ToolStripSeparator2
         '
-        Me.ToolStripButtonExit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButtonExit.Image = Global.HL7Orders.My.Resources.Resources.door_64
-        Me.ToolStripButtonExit.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButtonExit.Name = "ToolStripButtonExit"
-        Me.ToolStripButtonExit.Size = New System.Drawing.Size(28, 30)
-        Me.ToolStripButtonExit.Text = "ToolStripButtonExit"
-        Me.ToolStripButtonExit.ToolTipText = "Exit"
+        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 33)
+        '
+        'ToolStripButtonEdit
+        '
+        Me.ToolStripButtonEdit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButtonEdit.Image = Global.HL7Orders.My.Resources.Resources.edit_64
+        Me.ToolStripButtonEdit.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButtonEdit.Name = "ToolStripButtonEdit"
+        Me.ToolStripButtonEdit.Size = New System.Drawing.Size(28, 30)
+        Me.ToolStripButtonEdit.Text = "Edit"
+        '
+        'ToolStripSeparator3
+        '
+        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 33)
+        '
+        'ToolStripButtonDelete
+        '
+        Me.ToolStripButtonDelete.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.ToolStripButtonDelete.Image = Global.HL7Orders.My.Resources.Resources.delete_64
+        Me.ToolStripButtonDelete.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButtonDelete.Name = "ToolStripButtonDelete"
+        Me.ToolStripButtonDelete.Size = New System.Drawing.Size(28, 30)
+        Me.ToolStripButtonDelete.Text = "Delete"
         '
         'Hospital
         '
@@ -344,4 +376,8 @@ Partial Class Hospital
     Friend WithEvents ToolStripButtonView As ToolStripButton
     Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
     Friend WithEvents ToolStripButtonSend As ToolStripButton
+    Friend WithEvents ToolStripSeparator2 As ToolStripSeparator
+    Friend WithEvents ToolStripButtonEdit As ToolStripButton
+    Friend WithEvents ToolStripSeparator3 As ToolStripSeparator
+    Friend WithEvents ToolStripButtonDelete As ToolStripButton
 End Class

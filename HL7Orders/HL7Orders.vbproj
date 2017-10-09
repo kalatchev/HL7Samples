@@ -271,6 +271,7 @@
     </Content>
     <Content Include="DemoData\orders.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="DemoData\patients.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -278,6 +279,8 @@
     <Content Include="DemoData\wards.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\delete-64.png" />
+    <None Include="Resources\edit-64.png" />
     <None Include="Resources\mail-arrow-64.png" />
     <None Include="Resources\hammer-wrench-64.png" />
     <None Include="Resources\glasses-32.png" />

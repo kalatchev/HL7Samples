@@ -172,19 +172,32 @@ Public Class Hospital
         Process.Start(fn)
     End Sub
 
-    Private Sub ToolStripButtonSend_Click(sender As Object, e As EventArgs) Handles ToolStripButtonSend.Click
+    Private Function GetSelectedOrder() As Order
         If Me.ListViewOrders.SelectedItems.Count <> 1 Then
-            MessageBox.Show("Select order to send.")
+            MessageBox.Show("Please, select on order.")
+            Return Nothing
+        End If
+        Return DirectCast(Me.ListViewOrders.SelectedItems.Item(0).Tag, Order)
+    End Function
+
+    Private Sub DeleteSelectedOrder()
+        If Me.ListViewOrders.SelectedItems.Count <> 1 Then
+            MessageBox.Show("Please, select on order.")
             Exit Sub
         End If
         Dim o As Order = DirectCast(Me.ListViewOrders.SelectedItems.Item(0).Tag, Order)
+        Me.mOrders.Remove(o)
+        Me.ListViewOrders.Items.Remove(Me.ListViewOrders.SelectedItems.Item(0))
+    End Sub
+
+    Private Function SendOrder(o As Order) As String
         Dim a As NHapi.Base.Model.IMessage
         Dim s As New NHapiTools.Base.Net.SimpleMLLPClient(ConfigData.Instance.RemoteHost, ConfigData.Instance.RemoetPort, System.Text.Encoding.UTF8)
         Try
             a = s.SendHL7Message(HL7Utils.Order2Message(ConfigData.Instance, o))
         Catch ex As Exception
             MessageBox.Show(ex.Message)
-            Exit Sub
+            Return Nothing
         End Try
         Dim Res As String = ""
         Select Case CType(a, NHapi.Model.V251.Message.ACK).MSA.AcknowledgmentCode.Value
@@ -198,5 +211,30 @@ Public Class Hospital
                 Res = "Unknown answer"
         End Select
         MessageBox.Show("Server result:" & vbCrLf & Res, My.Application.Info.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Return CType(a, NHapi.Model.V251.Message.ACK).MSA.AcknowledgmentCode.Value
+    End Function
+
+    Private Sub ToolStripButtonSend_Click(sender As Object, e As EventArgs) Handles ToolStripButtonSend.Click
+        Dim o As Order = GetSelectedOrder()
+        If o IsNot Nothing Then
+            o.Action = Constants.Actions.[New]
+            SendOrder(o)
+        End If
+    End Sub
+
+    Private Sub ToolStripButtonDelete_Click(sender As Object, e As EventArgs) Handles ToolStripButtonDelete.Click
+        Dim o As Order = GetSelectedOrder()
+        If o Is Nothing Then Exit Sub
+        o.Action = Constants.Actions.Cancel
+        If Me.SendOrder(o) = "AA" Then
+            'Me.DeleteSelectedOrder()
+        End If
+    End Sub
+
+    Private Sub ToolStripButtonEdit_Click(sender As Object, e As EventArgs) Handles ToolStripButtonEdit.Click
+        Dim o As Order = GetSelectedOrder()
+        If o Is Nothing Then Exit Sub
+        o.Action = Constants.Actions.Update
+        Me.SendOrder(o)
     End Sub
 End Class
